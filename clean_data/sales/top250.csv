@@ -1,0 +1,191 @@
+Rank,Restaurant,Sales,YOY_Sales,Units,YOY_Units,Headquarters,Segment_Category,City,State
+1,McDonald's,40412,4.9%,13846,-0.5%,"Chicago, Illinois",Quick Service & Burger,Chicago,Illinois
+2,Starbucks,21380,8.6%,15049,3.0%,"Seattle, Washington",Quick Service & Coffee Cafe,Seattle,Washington
+3,Chick-fil-A,11320,13.0%,2470,5.0%,"College Park, Georgia",Quick Service & Chicken,College Park,Georgia
+4,Taco Bell,11293,9.0%,6766,2.7%,"Irvine, California",Quick Service & Mexican,Irvine,California
+5,Burger King,10204,2.7%,7346,0.2%,"Miami-Dade County, Florida",Quick Service & Burger,Miami-Dade County,Florida
+6,Subway,10200,-2.0%,23801,-4.0%,"Milford, Connecticut",Quick Service & Sandwich,Milford,Connecticut
+7,Wendy's,9762,4.2%,5852,0.7%,"Dublin, Ohio",Quick Service & Burger,Dublin,Ohio
+9,Domino's,7044,6.9%,6126,4.3%,"Ann Arbor, Michigan",Quick Service & Pizza,Ann Arbor,Michigan
+10,Panera Bread,5890,4.0%,2160,3.2%,"Sunset Hills, Missouri",Fast Casual & Bakery Cafe,Sunset Hills,Missouri
+11,Pizza Hut,5558,0.6%,7306,-2.4%,"Plano, Texas",Quick Service & Pizza,Plano,Texas
+12,Chipotle Mexican Grill,5509,14.8%,2584,5.3%,"Newport Beach, California",Fast Casual & Mexican,Newport Beach,California
+13,Sonic Drive-In,4687,4.6%,3526,-2.1%,"Oklahoma City, Oklahoma",Quick Service & Burger,Oklahoma City,Oklahoma
+14,KFC,4546,2.5%,4065,-0.2%,"Louisville, Kentucky",Quick Service & Chicken,Louisville,Kentucky
+15,Olive Garden,4287,5.0%,866,1.3%,"Orlando, Florida",Casual Dining & Italian/Pizza,Orlando,Florida
+16,Applebee's,4085,-3.0%,1665,-1.7%,"Glendale, California",Casual Dining & Varied Menu,Glendale,California
+17,Panda Express,3946,12.0%,2209,4.9%,"Rosemead, California",Fast Casual & Asian/Noodle,Rosemead,California
+18,Arby's,3884,1.9%,3359,0.9%,"Sandy Springs, Georgia",Quick Service & Sandwich,Sandy Springs,Georgia
+20,Little Caesars,3811,2.7%,4237,-0.6%,"Detroit, Michigan",Quick Service & Pizza,Detroit,Michigan
+21,Dairy Queen,3760,2.9%,4381,-0.6%,"Edina, Minnesota",Quick Service & Frozen Desserts,Edina,Minnesota
+22,Buffalo Wild Wings,3669,-0.1%,1206,-0.2%,"Sandy Springs, Georgia",Casual Dining & Sports Bar,Sandy Springs,Georgia
+24,Jack in the Box,3504,1.1%,2243,0.3%,"San Diego, California",Quick Service & Burger,San Diego,California
+25,IHOP,3266,2.0%,1710,0.3%,"Glendale, California",Family Dining & Family Style,Glendale,California
+26,Texas Roadhouse,3016,11.0%,553,3.8%,"Louisville, Kentucky",Casual Dining & Steak,Louisville,Kentucky
+27,Denny's,2691,1.1%,1558,-1.5%,"Spartanburg, South Carolina",Family Dining & Family Style,Spartanburg,South Carolina
+29,Outback Steakhouse,2635,0.9%,724,-1.2%,"Tampa, Florida",Casual Dining & Steak,Tampa,Florida
+30,Whataburger,2556,5.8%,830,0.6%,"San Antonio, Texas",Quick Service & Burger,San Antonio,Texas
+31,Red Lobster,2490,1.6%,679,0.1%,"San Francisco, California",Casual Dining & Seafood,San Francisco,California
+32,Cracker Barrel,2482,1.8%,660,0.8%,"Lebanon, Tennessee",Family Dining & Family Style,Lebanon,Tennessee
+33,The Cheesecake Factory,2180,2.5%,206,2.5%,"Calabasas, California",Casual Dining & Varied Menu,Calabasas,California
+36,Zaxby's,1886,6.0%,910,1.3%,"Athens, Georgia",Fast Casual & Chicken,Athens,Georgia
+37,LongHorn Steakhouse,1867,6.3%,530,1.9%,"Orlando, Florida",Casual Dining & Steak,Orlando,Florida
+38,Culver's,1795,13.9%,732,6.7%,"Prairie du Sac, Wisconsin",Quick Service & Burger,Prairie du Sac,Wisconsin
+39,Golden Corral,1746,0.8%,483,-1.2%,"Raleigh, North Carolina",Quick Service & Family Casual,Raleigh,North Carolina
+42,Raising Cane's Chicken Fingers,1466,23.8%,457,14.3%,"Baton Rouge, Louisiana",Fast Casual & Chicken,Baton Rouge,Louisiana
+44,Wingstop,1363,19.0%,1231,9.5%,"Addison, Texas",Fast Casual & Chicken,Addison,Texas
+45,Waffle House,1344,3.4%,1959,1.2%,"Norcross, Georgia",Family Dining & Family Style,Norcross,Georgia
+46,Jersey Mike's Subs,1340,16.7%,1667,11.6%,"Wall Township, New Jersey",Fast Casual & Sandwich,Wall Township,New Jersey
+49,TGI Fridays,1085,-8.5%,385,-7.9%,"Dallas, Texas",Casual Dining & Varied Menu,Dallas,Texas
+50,In-N-Out Burger,957,4.6%,351,3.5%,"Irvine, California",Quick Service & Burger,Irvine,California
+51,Steak 'n Shake,950,-7.7%,576,-3.0%,"Indianapolis, Indiana",Quick Service & Burger,Indianapolis,Indiana
+54,El Pollo Loco,894,3.0%,482,-0.4%,"Costa Mesa, California",Quick Service & Chicken,Costa Mesa,California
+55,Krispy Kreme,887,4.4%,364,4.0%,"Charlotte, North Carolina",Quick Service & Snack,Charlotte,North Carolina
+56,Hooters,858,0.4%,341,0.0%,"Atlanta, Georgia",Casual Dining & Sports Bar,Atlanta,Georgia
+57,Del Taco,850,4.0%,596,2.8%,"Lake Forest, California",Quick Service & Mexican,Lake Forest,California
+58,Firehouse Subs,832,4.8%,1155,1.9%,"Jacksonville, Florida",Fast Casual & Sandwich,Jacksonville,Florida
+60,Moe's Southwest Grill,749,2.0%,730,1.5%,"Atlanta, Georgia",Fast Casual & Mexican,Atlanta,Georgia
+62,Ruby Tuesday,731,-11.4%,451,-8.1%,"Maryville, Tennessee",Casual Dining & Varied Menu,Maryville,Tennessee
+63,McAlister's Deli,725,7.0%,460,3.6%,"Sandy Springs, Georgia",Fast Casual & Sandwich,Sandy Springs,Georgia
+64,Cheddar's Scratch Kitchen,724,0.6%,175,2.9%,"Orlando, Florida",Casual Dining & Varied Menu,Orlando,Florida
+65,Church's Chicken,716,-5.2%,1032,-5.0%,"Atlanta, Georgia",Quick Service & Chicken,Atlanta,Georgia
+66,Tim Hortons,714,-3.5%,715,-1.7%,"Toronto, Ontario, Canada",Quick Service & Coffee Cafe,Toronto,Ontario
+67,Ruth's Chris Steak House,703,1.6%,135,1.5%,"Winter Park, Florida",Steak,Winter Park,Florida
+68,Carrabba's Italian Grill,653,-1.0%,225,-0.9%,"Tampa, Florida",Casual Dining & Italian/Pizza,Tampa,Florida
+69,Jason's Deli,647,-1.1%,283,1.8%,"Beaumont, Texas",Fast Casual & Sandwich,Beaumont,Texas
+70,Marco's Pizza,628,4.8%,915,3.6%,"Toledo, Ohio",Quick Service & Pizza,Toledo,Ohio
+71,Shake Shack,622,31.8%,173,27.2%,"New York, New York",Fast Casual & Burger,New York,New York
+72,California Pizza Kitchen,621,-3.3%,199,-0.5%,"Los Angeles, California",Casual Dining & Italian/Pizza,Los Angeles,California
+73,Baskin-Robbins,615,0.6%,2524,-1.0%,"Canton, Massachusetts",Quick Service & Frozen Desserts,Canton,Massachusetts
+74,Yard House,609,6.6%,79,9.7%,"Orlando, Florida",Casual Dining & Varied Menu,Orlando,Florida
+75,Bonefish Grill,587,-0.9%,197,0.0%,"Tampa, Florida",Casual Dining & Seafood,Tampa,Florida
+76,White Castle,579,2.4%,371,-0.5%,"Columbus, Ohio",Quick Service & Burger,Columbus,Ohio
+77,Tropical Smoothie Cafe,576,21.8%,834,16.0%,"Atlanta, Georgia",Quick Service & Beverage,Atlanta,Georgia
+78,Dave & Buster's,571,6.5%,132,10.9%,"Dallas, TX",Sports Bar,Dallas,TX
+79,Dutch Bros. Coffee,567,15.0%,369,13.2%,"Grants Pass, Oregon",Quick Service & Coffee Cafe,Grants Pass,Oregon
+81,Auntie Anne's,559,0.2%,1288,-0.5%,"Sandy Springs, Georgia",Quick Service & Snack,Sandy Springs,Georgia
+82,First Watch,558,35.1%,368,24.7%,"University Park, Florida",Family Dining & Family Style,University Park,Florida
+84,Freddy's Frozen Custard & Steakburgers,535,12.9%,368,12.2%,"Wichita, Kansas",Fast Casual & Burger,Wichita,Kansas
+86,Noodles & Company,533,0.9%,457,-0.4%,"Broomfield, Colorado",Fast Casual & Asian/Noodle,Broomfield,Colorado
+87,Einstein Bros. Bagels,517,-2.1%,710,-2.6%,"Lakewood, Colorado",Quick Service & Bakery Cafe,Lakewood,Colorado
+90,Boston Market,501,-9.9%,390,-14.1%,"Golden, Colorado",Fast Casual & Chicken,Golden,Colorado
+91,The Habit Burger Grill,500,14.5%,273,10.5%,"Irvine, California",Fast Casual & Burger,Irvine,California
+92,Logan's Roadhouse,496,-3.7%,204,-1.0%,"Nashville, Tennessee",Casual Dining & Steak,Nashville,Tennessee
+93,MOD Pizza,483,23.8%,467,18.2%,"Bellevue, Washington",Fast Casual & Pizza,Bellevue,Washington
+94,Smoothie King,462,11.2%,972,8.0%,"Coppell, Texas",Quick Service & Beverage,Coppell,Texas
+95,Mellow Mushroom,461,-0.3%,187,-1.1%,"Atlanta, Georgia",Casual Dining & Italian/Pizza,Atlanta,Georgia
+96,The Capital Grille,461,4.7%,58,0.0%,"Orlando, Florida",Fine Dining & Steak,Orlando,Florida
+97,Round Table Pizza,450,1.3%,435,0.7%,"Atlanta, Georgia",Quick Service & Pizza,Atlanta,Georgia
+98,Miller's Ale House,446,10.2%,98,11.4%,"Orlando, Florida",Casual Dining & Sports Bar,Orlando,Florida
+99,Potbelly sandwich Shop,446,-2.5%,471,-1.5%,"Chicago, Illinois",Quick Service & Sandwich,Chicago,Illinois
+100,Hungry Howie's Pizza,439,7.0%,537,-2.4%,"Madison Heights, Michigan",Quick Service & Pizza,Madison Heights,Michigan
+101,Charleys Philly Steaks,435,4.9%,540,2.3%,"Columbus, Ohio",Quick Service & Sandwich,Columbus,Ohio
+102,Chuy's,426,7.1%,100,0.0%,"Austin, Texas",Mexican,Austin,Texas
+103,O'Charley's,426,-7.6%,196,-5.3%,"Nashville, Tennessee",Varied Menu,Nashville,Tennessee
+104,Pollo Tropical,425,-2.1%,174,3.0%,"Doral, Florida",Chicken,Doral,Florida
+105,Maggiano's Little Italy,417,1.1%,53,1.9%,"Dallas, Texas",Italian/Pizza,Dallas,Texas
+106,Cicis,410,-1.4%,420,0.7%,"Irving, Texas",Pizza,Irving,Texas
+107,Long John Silver's,404,-8.2%,850,-2.4%,"Louisville, Kentucky",Seafood,Louisville,Kentucky
+108,Saltgrass Steak House,402,14.9%,88,10.0%,"Houston, Texas",Steak,Houston,Texas
+109,Chuck E. Cheese's,381,-0.5%,537,1.3%,"Irving, TX",Pizza,Irving,TX
+110,Taco John's,373,0.5%,387,-1.3%,"Cheyenne, Wyoming",Mexican,Cheyenne,Wyoming
+111,Texas de Brazil Churrascaria,370,10.5%,58,9.4%,"Dallas, TX",Steak,Dallas,TX
+112,Cold Stone Creamery,369,-2.3%,895,-0.9%,"Scottsdale, Arizona",Frozen Desserts,Scottsdale,Arizona
+113,Blaze Pizza,366,12.4%,313,5.7%,"Pasadena, California",Pizza,Pasadena,California
+114,Peet's Coffee,357,4.3%,423,2.2%,"Emeryville, California",Coffee Cafe,Emeryville,California
+115,Dickey's Barbecue Pit,349,-9.2%,497,-6.4%,"Dallas, Texas",BBQ,Dallas,Texas
+116,Zoes Kitchen,348,1.2%,256,-1.5%,"Plano, TX",Sandwich,Plano,TX
+117,Corner Bakery_Cafe,348,-3.9%,175,-3.8%,"Dallas, TX",Bakery Cafe,Dallas,TX
+118,Krystal Co.,343,-9.0%,318,-10.7%,"Dunwoody, GA",Burger,Dunwoody,GA
+119,Benihana,340,1.6%,71,0.0%,"Aventura, Florida",Asian,Aventura,Florida
+120,Cooper's Hawk Winery & Restaurants,338,19.9%,41,17.1%,"Countryside, IL",Varied Menu,Countryside,IL
+121,Big Boy/Frisch's Big Boy,338,-3.4%,194,-3.0%,"Warren, MI",Family Style,Warren,MI
+122,Black Bear Diner,336,15.3%,138,15.0%,"Redding, California",Family Style,Redding,California
+123,Twin Peaks,335,2.6%,84,0.0%,"Addison, Texas",Sports Bar,Addison,Texas
+124,Schlotzsky's,335,-0.5%,373,0.5%,"Atlanta, Georgia",Sandwich,Atlanta,Georgia
+125,Jet's Pizza,331,-1.8%,383,-1.0%,"Sterling Heights, Michigan",Pizza,Sterling Heights,Michigan
+126,Famous Dave's,329,-8.0%,128,-11.1%,"Minnetonka, Minnesota",BBQ,Minnetonka,Minnesota
+127,On The Border Mexican Grill & Cantina,327,-6.1%,136,-4.9%,"Irving, TX",Mexican,Irving,TX
+128,Fogo de Chao,326,10.1%,43,13.2%,"Plano, TX",Steak,Plano,TX
+129,Ninety Nine Restaurants,324,2.1%,108,0.9%,"Woburn, MA",Varied Menu,Woburn,MA
+130,Village Inn,313,-7.9%,183,-9.0%,"Nashville, Tennessee",Family Style,Nashville,Tennessee
+131,Taco Cabana,311,-4.4%,172,1.2%,"San Antonio, Texas",Mexican,San Antonio,Texas
+132,Fleming's Prime Steakhouse & Wine Bar,307,1.0%,68,-2.9%,"Tampa, Florida",Steak,Tampa,Florida
+133,Caribou Coffee,306,6.7%,464,3.8%,"Brooklyn Center, Minnesota",Coffee Cafe,Brooklyn Center,Minnesota
+134,Jack's,290,9.8%,176,8.6%,"Sumiton, Alabama",Burger,Sumiton,Alabama
+135,Au Bon Pain,289,-8.1%,170,-5.6%,"Richardson, Texas",Bakery Cafe,Richardson,Texas
+136,Bar Louie,284,-5.6%,128,-3.0%,"Addison, Texas",Varied Menu,Addison,Texas
+137,Sarku Japan,281,2.4%,224,-0.4%,"Markham, Ontario, Canada",Asian/Noodle,Markham,Ontario
+138,Old Chicago Pizza & Taproom,275,4.5%,109,1.9%,"Broomfield, Colorado",Italian/Pizza,Broomfield,Colorado
+139,Rally's Hamburgers,275,-3.5%,290,-3.7%,"Lexington, KY",Burger,Lexington,KY
+140,Torchy's Tacos,272,17.3%,72,14.3%,"Austin, TX",Mexican,Austin,TX
+141,Pizza Ranch,269,7.3%,212,2.9%,"Orange City, Iowa",Pizza,Orange City,Iowa
+142,Pappadeaux Seafood Kitchen,269,3.1%,40,0.0%,"Houston, Texas",Seafood,Houston,Texas
+143,Braum's Ice Cream & Dairy Stores,268,2.2%,281,0.0%,"Oklahoma City, OK",Frozen Desserts,Oklahoma City,OK
+144,Pei Wei Asian Diner,268,-12.5%,150,-16.7%,"Irving, Texas",Asian/Noodle,Irving,Texas
+145,Cafe Rio Mexican Grill,267,9.9%,126,6.8%,"Salt Lake City, UT",Mexican,Salt Lake City,UT
+146,Morton's The Steakhouse,266,-1.5%,63,-1.6%,"Houston, Texas",Steak,Houston,Texas
+147,Smashburger,265,-6.5%,312,-3.4%,"Denver, Colorado",Burger,Denver,Colorado
+148,Wienerschnitzel,265,3.6%,330,1.5%,"Irvine, California",Sandwich,Irvine,California
+149,Sizzler,259,-3.8%,122,-6.9%,"Mission Viejo, California",Family Casual,Mission Viejo,California
+150,Seasons 52,253,1.4%,44,4.8%,"Orlando, Florida",Varied Menu,Orlando,Florida
+152,Pret A Manger,252,4.7%,95,3.3%,"London, England, UK",Bakery Cafe,London,England
+153,Godfather's Pizza,250,4.9%,569,3.8%,"Omaha, Nebraska",Pizza,Omaha,Nebraska
+154,Huddle House,247,0.9%,342,-2.6%,"Atlanta, Georgia",Family Style,Atlanta,Georgia
+157,Fazoli's,238,2.8%,215,0.0%,"Lexington, Kentucky",Sandwich,Lexington,Kentucky
+159,Legal Sea Foods,227,-1.9%,34,-2.9%,"Boston, Massachusetts",Seafood,Boston,Massachusetts
+161,Newk's Eatery,227,0.4%,121,-0.8%,"Jackson, Mississippi",Sandwich,Jackson,Mississippi
+162,Fuzzy's Taco Shop,225,8.6%,152,3.4%,"Fort Worth, Texas",Mexican,Fort Worth,Texas
+163,Sbarro,218,-4.0%,300,-2.6%,"Columbus, Ohio",Pizza,Columbus,Ohio
+164,Romano's Macaroni Grill,218,-4.6%,85,-3.4%,"Denver, Colorado",Italian/Pizza,Denver,Colorado
+168,Friendly's,210,-15.3%,160,-20.4%,"Wilbraham, Massachusetts",Family Style,Wilbraham,Massachusetts
+170,Penn Station East Coast Subs,201,0.8%,306,-1.3%,"Cincinnati, Ohio",Sandwich,Cincinnati,Ohio
+171,Cinnabon,201,5.6%,956,3.5%,"Sandy Springs, Georgia",Snack,Sandy Springs,Georgia
+172,Uno Pizzeria & Grill,196,-12.9%,85,-14.1%,"Boston, Massachusetts",Italian/Pizza,Boston,Massachusetts
+173,J. Alexander's,195,2.8%,34,3.0%,"Nashville, Tennessee",Varied Menu,Nashville,Tennessee
+174,Luby's,195,-7.5%,79,-6.0%,"Houston, Texas",Family Casual,Houston,Texas
+177,Le Pain Quotidien,192,1.2%,94,0.0%,"New York, New York",Bakery Cafe,New York,New York
+178,Sonny's BBQ,191,-8.3%,94,-6.9%,"Maitland, Florida",BBQ,Maitland,Florida
+180,Buca di Beppo,189,-5.7%,76,-1.3%,"Orlando, Florida",Italian/Pizza,Orlando,Florida
+181,Hard Rock Cafe,187,-5.2%,40,-4.8%,"Davie, Florida",Varied Menu,Davie,Florida
+182,Johnny Rockets,186,-10.2%,155,-11.4%,"Wilbraham, Massachusetts",Varied Menu,Wilbraham,Massachusetts
+183,Fuddruckers,185,-15.8%,138,-11.5%,"Houston, Texas",Burger,Houston,Texas
+184,The Original Pancake House,185,3.1%,141,0.0%,"Portland, Oregon",Family Style,Portland,Oregon
+185,Sweetgreen,184,16.8%,102,10.9%,"Culver City, California",Healthy,Culver City,California
+186,Golden Chick,183,6.7%,184,0.5%,"Richardson, Texas",Chicken,Richardson,Texas
+187,Mountain Mike's Pizza,181,10.9%,215,5.4%,"Newport Beach, California",Pizza,Newport Beach,California
+189,The Melting Pot,181,-6.5%,105,-7.9%,"Tampa, Florida",Varied Menu,Tampa,Florida
+190,Farmer Boys,179,1.7%,93,1.1%,"Riverside, California",Burger,Riverside,California
+191,Donatos Pizza,179,3.8%,165,3.1%,"Gahanna, Ohio",Pizza,Gahanna,Ohio
+192,Shoney's,179,-4.4%,126,-0.8%,"Nashville, Tennessee",Family Style,Nashville,Tennessee
+193,Taco Bueno,178,-12.4%,145,-12.1%,"Irving, Texas",Mexican,Irving,Texas
+194,Claim Jumper,177,-10.2%,35,-5.4%,"Houston, Texas",Varied Menu,Houston,Texas
+195,Wetzel's Pretzels,177,3.9%,353,5.4%,"Pasadena, California",Snack,Pasadena,California
+202,Bill Miller Bar-B-Q,170,3.6%,75,1.4%,"San Antonio, Texas",BBQ,San Antonio,Texas
+203,Black Angus Steakhouse,168,1.6%,42,-4.5%,"Los Angeles, California",Steak,Los Angeles,California
+205,Joe's Crab Shack,166,-7.4%,53,-7.0%,"Houston, Texas",Seafood,Houston,Texas
+206,LaRosa's Pizzeria,164,3.7%,66,3.1%,"Cincinnati, Ohio",Italian/Pizza,Cincinnati,Ohio
+210,Lee's Famous Recipe Chicken,161,-2.3%,129,-1.5%,"Fort Walton Beach, Florida",Chicken,Fort Walton Beach,Florida
+211,Wayback Burgers,159,2.0%,143,0.7%,"Cheshire, Connecticut",Burger,Cheshire,Connecticut
+212,McCormick & Schmick's,157,-15.6%,35,-14.6%,"Houston, Texas",Seafood,Houston,Texas
+215,Chicken Salad Chick,153,39.5%,144,38.5%,"Auburn, Alabama",Chicken,Auburn,Alabama
+218,Hurricane Grill & Wings,151,0.8%,56,0.0%,"West Palm Beach, Florida",Sports Bar,West Palm Beach,Florida
+219,The Old Spaghetti Factory,150,2.2%,42,0.0%,"Portland, Oregon",Italian/Pizza,Portland,Oregon
+220,Taziki's Mediterranean Cafe,149,11.9%,93,6.9%,"Birmingham, Alabama",Ethnic,Birmingham,Alabama
+221,Menchie's Frozen Yogurt,149,-3.1%,416,-2.1%,"Encino, California",Frozen Desserts,Encino,California
+222,Bruegger's Bagels,148,-4.5%,210,-2.8%,"Denver, Colorado",Bakery Cafe,Denver,Colorado
+223,Tijuana Flats,147,6.5%,139,2.2%,"Maitland, Florida",Mexican,Maitland,Florida
+225,Eddie V's Prime Seafood,144,8.1%,21,10.5%,"Orlando, Florida",Seafood,Orlando,Florida
+226,Topgolf,144,14.6%,54,14.9%,"Dallas, Texas",Varied Menu,Dallas,Texas
+228,Pappasito's Cantina,143,2.2%,25,0.0%,"Houston, Texas",Mexican,Houston,Texas
+229,Pollo Campero,143,1.1%,78,-2.5%,"Dallas, Texas",Chicken,Dallas,Texas
+230,Houlihan's,143,-21.2%,45,-32.8%,"Leawood, Kansas",Varied Menu,Leawood,Kansas
+232,Great American Cookies,142,2.7%,368,2.2%,"Atlanta, Georgia",Snack,Atlanta,Georgia
+234,BurgerFi,138,3.0%,112,7.7%,"Palm Beach, Florida",Burger,Palm Beach,Florida
+237,The Coffee Bean & Tea Leaf,133,-2.1%,282,-0.7%,"Los Angeles, California",Coffee Cafe,Los Angeles,California
+238,Yogurtland,132,-2.6%,267,-2.2%,"Irvine, California",Frozen Desserts,Irvine,California
+239,Daylight Donuts,132,2.2%,415,0.2%,"Tulsa, Oklahoma",Snack,Tulsa,Oklahoma
+242,Biggby Coffee,129,3.8%,240,0.8%,"Lansing, Michigan",Coffee Cafe,Lansing,Michigan
+244,L&L Hawaiian Barbecue,129,5.1%,195,3.7%,"Honolulu, Hawaii",BBQ,Honolulu,Hawaii
+246,Rainforest Cafe,129,-10.4%,18,-5.3%,"Houston, Texas",Varied Menu,Houston,Texas
+250,Jollibee,126,15.2%,40,11.1%,"Pasig, Philippines",Chicken,Pasig,Philippines
