@@ -1,4 +1,4 @@
-from app.models import db, BusinessDetail
+from app.models import db, Business, BusinessDetail, CrimesVsPerson, CrimesVsProperty, CrimesVsSociety, State
 import pandas as pd
 
 BusinessDetail = pd.read_csv('business_details.csv')
