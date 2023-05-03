@@ -6,6 +6,7 @@ class State(db.Model):
     id = db.Column(db.Integer, primary_key=True, nullable=False)
     # Columns: State,State Code
     state = db.Column(db.String(100), nullable=False)
+    state_code = db.Column(db.String(100), nullable=False)
 
     # Relation
     businesses = db.relationship('Business', back_populates='states')

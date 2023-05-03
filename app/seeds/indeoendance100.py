@@ -1,5 +1,5 @@
 from app.models import db, Future50, Independence100
-from pands import pandas as pd
+import pandas as pd
 
 independance = pd.read_csv('Independence100.csv')
 

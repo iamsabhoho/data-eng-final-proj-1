@@ -1,6 +1,6 @@
 from .db import db
-from .future50 import Future50
-from .independence100 import Independence100
+# from .future50 import Future50
+# from .independence100 import Independence100
 from .business import Business
 from .business_details import BusinessDetail
 from .states import State
