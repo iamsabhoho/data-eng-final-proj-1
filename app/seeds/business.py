@@ -1,4 +1,4 @@
-from app.models import db, Business, BusinessDetail, CrimesVsPerson, CrimesVsProperty, CrimesVsSociety, State
+from app.models import db, Business, CrimesVsPerson, CrimesVsProperty, CrimesVsSociety, State
 import pandas as pd
 import os
 
@@ -12,15 +12,15 @@ Business_list = []
 
 for index, row in business_df.iterrows():
     #id, Restaurant,Sales,City,State,YOY_Sales,state_id, business_id
-    business = Business(
+    business_cell = Business(
         restaurant=row['Restaurant'],
         sales=row['Sales'],
         city=row['City'],
-        state=row['State'],
         yoy_sales=row['YOY_Sales'],
-        state_id=row['state_id'],  
+        state_id=row['state_id'],
+        business_detail=row['details']
     )
-    Business_list.append(business)
+    Business_list.append(business_cell)
     
     
 def seed_business():

@@ -1,14 +1,18 @@
-from app.models import db, Business, BusinessDetail, CrimesVsPerson, CrimesVsProperty, CrimesVsSociety, State
+from app.models import db, Business, CrimesVsPerson, CrimesVsProperty, CrimesVsSociety, State
 import pandas as pd
+import os
 
-crime_property = pd.read_csv('crime_property.csv')
+csv_file_path = os.path.join(os.path.dirname(
+    os.path.abspath(__file__)), '', 'crime_property.csv')
+
+crime_property = pd.read_csv(csv_file_path)
 
 crime_property_list = []
 
 
 for index, row in crime_property.iterrows():
      # Columns: State,Number of Participating Agencies,Population Covered,Arson,Bribery,Burglary/Breaking & Entering,Counterfeiting/Forgery,Destruction/Damage/Vandalism,Embezzlement,Extortion/Blackmail,Fraud Offenses,Larceny/Theft Offenses,Motor Vehicle Theft,Robbery,Stolen Property Offenses,state_id
-    crime_property_list.append(crime_property(
+    crime_property_list.append(CrimesVsProperty(
         number_of_participating_agencies=row['Number of Participating Agencies'],
         population_covered=row['Population Covered'],
         arson=row['Arson'],

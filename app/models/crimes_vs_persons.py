@@ -13,7 +13,7 @@ class CrimesVsPerson(db.Model):
     state_id = db.Column(db.Integer, db.ForeignKey('states.id'), nullable=False)
 
     # Relation
-    state = db.relationship('State', back_populates='crimes_vs_persons')
+    states = db.relationship('State', back_populates='crimes_vs_persons')
 
     def to_dict(self):
         return {

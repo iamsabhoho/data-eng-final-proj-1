@@ -8,13 +8,12 @@ class Business(db.Model):
     restaurant = db.Column(db.String(100), nullable=False)
     sales = db.Column(db.Float, nullable=False)
     city = db.Column(db.String(100), nullable=False)
-    yoy_sales = db.Column(db.Float, nullable=False)
+    yoy_sales = db.Column(db.String(100), nullable=False)
     state_id = db.Column(db.Integer, db.ForeignKey('states.id'), nullable=False)
-    business_id = db.Column(db.Integer, db.ForeignKey('businesse_details.id'), nullable=False)
+    business_detail = db.Column(db.String(100), nullable=False)
 
     # Relation
-    state = db.relationship('State', back_populates='businesses')
-    business_detail = db.relationship('BusinessDetail', back_populates='businesses')
+    states = db.relationship('State', back_populates='businesses')
 
     def to_dict(self):
         return {

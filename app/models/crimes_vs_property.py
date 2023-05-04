@@ -22,7 +22,7 @@ class CrimesVsProperty(db.Model):
     state_id = db.Column(db.Integer, db.ForeignKey('states.id'), nullable=False)
 
     # Relation
-    state = db.relationship('State', back_populates='crimes_vs_property')
+    states = db.relationship('State', back_populates='crimes_vs_property')
 
     def to_dict(self):
         return {

@@ -1,14 +1,19 @@
-from app.models import db, Business, BusinessDetail, CrimesVsPerson, CrimesVsProperty, CrimesVsSociety, State
+from app.models import db, Business, CrimesVsPerson, CrimesVsProperty, CrimesVsSociety, State
 import pandas as pd
+import os
 
-crime_person = pd.read_csv('crime_person.csv')
+csv_file_path = os.path.join(os.path.dirname(
+    os.path.abspath(__file__)), '', 'crime_person.csv')
+
+
+crime_person = pd.read_csv(csv_file_path)
 
 crime_person_list = []
 
 for index, row in crime_person.iterrows():
     #Columns: Assault Offenses,Homicide Offenses,Human Trafficking,Kidnapping/ Abduction,Sex Offenses,state_id
     
-    crime_person_list.append(crime_person(
+    crime_person_list.append(CrimesVsPerson(
         assault_offenses=row['Assault Offenses'],
         homicide_offenses=row['Homicide Offenses'],
         human_trafficking=row['Human Trafficking'],

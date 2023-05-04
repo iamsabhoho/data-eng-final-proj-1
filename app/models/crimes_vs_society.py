@@ -15,7 +15,7 @@ class CrimesVsSociety(db.Model):
     state_id = db.Column(db.Integer, db.ForeignKey('states.id'), nullable=False)
 
     # Relation
-    state = db.relationship('State', back_populates='crimes_vs_society')
+    states = db.relationship('State', back_populates='crimes_vs_society')
 
     def to_dict(self):
         return {

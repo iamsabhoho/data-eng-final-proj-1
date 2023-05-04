@@ -1,7 +1,12 @@
-from app.models import db, Business, BusinessDetail, CrimesVsPerson, CrimesVsProperty, CrimesVsSociety, State
+from app.models import db, Business, CrimesVsPerson, CrimesVsProperty, CrimesVsSociety, State
 import pandas as pd
+import os
 
-crime_society = pd.read_csv('crime_society.csv')
+csv_file_path = os.path.join(os.path.dirname(
+    os.path.abspath(__file__)), '', 'crime_society.csv')
+
+
+crime_society = pd.read_csv(csv_file_path)
 
 crime_society_list = []
 
