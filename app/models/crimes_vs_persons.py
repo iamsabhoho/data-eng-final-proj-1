@@ -1,7 +1,7 @@
 from .db import db
 from sqlalchemy.sql import func
 
-class CrimesVsPersons(db.Model):
+class CrimesVsPerson(db.Model):
     #Columns: Assault Offenses,Homicide Offenses,Human Trafficking,Kidnapping/ Abduction,Sex Offenses,state_id
     __tablename__ = 'crimes_vs_persons'
     id = db.Column(db.Integer, primary_key=True, nullable=False)
