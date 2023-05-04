@@ -1,341 +1,341 @@
-Restaurant,Sales,City,YOY_Sales,state_id
-Evergreens,2400000.0,Seattle,130.5%,47
-Clean Juice,4400000.0,Charlotte,121.9%,33
-Slapfish,2100000.0,Huntington Beach,81.0%,5
-Clean Eatz,2500000.0,Wilmington,79.7%,33
-Pokeworks,4900000.0,Irvine,77.1%,5
-Playa Bowls,3900000.0,Belmar,62.9%,30
-The Simple Greek,2400000.0,Blue Bell,52.5%,38
-Melt Shop,2000000.0,New York,39.6%,32
-Creamistry,2400000.0,Yorba Linda,36.8%,5
-Joella's Hot Chicken,2900000.0,Louisville,35.5%,17
-Eggs Up Grill,3000000.0,Spartanburg,35.4%,40
-Dog Haus,3900000.0,Pasadena,34.5%,5
-Teriyaki Madness,4100000.0,Denver,34.1%,6
-Bluestone Lane,4800000.0,New York,33.0%,32
-Original ChopShop,2100000.0,Plano,32.5%,43
-Rapid Fired Pizza,2400000.0,Kettering,32.2%,35
-Ike's Love & Sandwiches,4400000.0,San Francisco,30.8%,5
-Vitality Bowls,3700000.0,San Ramon,30.1%,5
-Hawkers Asian Street Fare,2200000.0,Orlando,30.0%,9
-Maple Street Biscuit Co.,3900000.0,Orange Park,28.9%,9
-Bulla Gastrobar,3200000.0,Doral,28.2%,9
-Duck Donuts,4400000.0,Mechanicsburg,28.0%,38
-The Little Beet,2300000.0,New York,26.5%,32
-Joe & The Juice,4700000.0,New York,25.9%,32
-By Chloe,3700000.0,New York,25.6%,32
-Sugarfire Smokehouse,3900000.0,Olivette,25.4%,25
-Bibibop Asian Grill,4400000.0,Columbus,24.6%,35
-Bubbakoo's Burritos,2800000.0,Wall Township,24.3%,30
-Dos Toros Taqueria,2800000.0,New York,24.0%,32
-The Pizza Press,2700000.0,Anaheim,23.7%,5
-The Lost Cajun,2000000.0,Frisco,23.0%,43
-Just Salad,4200000.0,New York,22.7%,32
-Jeni's Splendid Ice Creams,4200000.0,Columbus,22.4%,35
-Boqueria,2700000.0,New York,22.0%,32
-Quickway Japanese Hibachi,2200000.0,Fairfax,21.4%,46
-Surcheros,2200000.0,Douglas,21.3%,10
-Famous Toastery,4000000.0,Charlotte,21.2%,33
-Culinary Dropout,2000000.0,Scottsdale,20.8%,3
-Condado Tacos,3800000.0,Columbus,19.9%,35
-The Flying Biscuit Cafe,2900000.0,Atlanta,19.5%,10
-Blue Sushi Sake Grill,4900000.0,Omaha,19.5%,27
-The Human Bean,4700000.0,Medford,19.0%,37
-Spitz Mediterranean Street Food,2800000.0,Los Angeles,18.8%,5
-Tacos 4 Life,2500000.0,Conway,18.4%,4
-Pita Mediterranean Street Food,3800000.0,Fairburn,17.8%,10
-LA Crawfish,4800000.0,McAllen,17.6%,43
-&pizza,4500000.0,Washington,17.1%,0
-Super Duper Burgers,3900000.0,San Francisco,16.9%,5
-StoneFire Grill,3100000.0,Agoura Hills,16.0%,5
-Gus's World Famous Fried Chicken,4400000.0,Memphis,14.4%,42
-Carmine's (Times Square),39080335.0,New York,0%,32
-The Boathouse Orlando,35218364.0,Orlando,0%,9
-Old Ebbitt Grill,29104017.0,Washington,0%,0
-LAVO Italian Restaurant & Nightclub,26916180.0,New York,0%,32
-Bryant Park Grill & Cafe,26900000.0,New York,0%,32
-Gibsons Bar & Steakhouse,25409952.0,Chicago,0%,13
-Top of the World at the STRAT ,25233543.0,Las Vegas,0%,28
-Maple & Ash,24837595.0,Chicago,0%,13
-Balthazar,24547800.0,New York,0%,32
-Smith & Wollensky,24501000.0,New York,0%,32
-Angus Barn,24268160.0,Raleigh,0%,33
-Prime 112,23800000.0,Miami Beach,0%,9
-"Joe's Seafood, Prime Steak & Stone Crab",23660000.0,Washington,0%,0
-Junior's (Times Square),23640652.0,New York,0%,32
-The Hamilton,23138062.0,Washington,0%,0
-"Joe's Seafood, Prime Steak & Stone Crab",22981600.0,Chicago,0%,13
-"Joe's Seafood, Prime Steak & Stone Crab",22859400.0,Las Vegas,0%,28
-Gibsons Italia,22749232.0,Chicago,0%,13
-Komodo,22500000.0,Miami,0%,9
-Buddakan,22395577.0,New York,0%,32
-Bazaar Meat by Jose Andres,22181607.0,Las Vegas,0%,28
-SW Steakhouse,21523650.0,Las Vegas,0%,28
-St. Elmo Steak House,21422141.0,Indianapolis,0%,14
-RPM Steak,20853300.0,Chicago,0%,13
-Mon Ami Gabi,20120210.0,Las Vegas,0%,28
-Gibsons Bar & Steakhouse,19831818.0,Oak Brook,0%,13
-Paddlefish,19829500.0,Orlando,0%,9
-Taste of Texas,19530159.0,Houston,0%,43
-Parc,19379153.0,Philadelphia,0%,38
-Bob Chinn's Crab House,18687601.0,Wheeling,0%,13
-Quality Meats,18678000.0,New York,0%,32
-Del Posto,18625033.0,New York,0%,32
-Shooters Waterfront,18601433.0,Ft. Lauderdale,0%,9
-Bottega Louie,18521000.0,Los Angeles,0%,5
-Le Diplomate,18490719.0,Washington,0%,0
-Gibsons Bar & Steakhouse,18483056.0,Rosemont,0%,13
-Lavo Italian Restaurant & Lounge,18386262.0,Las Vegas,0%,28
-Prime Steakhouse,18248030.0,Las Vegas,0%,28
-Makoto,18216906.0,Bal Harbour,0%,9
-Original Joe's Westlake,18159612.0,Daly City,0%,5
-Shaw's Crab House,17965500.0,Chicago,0%,13
-"Founding Farmers (Washington, D.C.)",17910045.0,Washington,0%,0
-Junior's (49th Street),17834390.0,New York,0%,32
-Chops Lobster Bar,17816450.0,Atlanta,0%,10
-Chicago Cut Steakhouse,17743720.0,Chicago,0%,13
-Swift & Sons,17637400.0,Chicago,0%,13
-Harris Ranch Inn & Restaurant,17599468.0,Coalinga,0%,5
-Sparks Steak House,17519030.0,New York,0%,32
-Quality Italian,17519000.0,New York,0%,32
-Frankenmuth Bavarian Inn,17388751.0,Frankenmuth,0%,22
-Tavern on the Green,17212800.0,New York,0%,32
-Abe & Louie's,17063477.0,Boston,0%,21
-Rusty Pelican,16981741.0,Miami,0%,9
-Beauty & Essex (New York City),16364050.0,New York,0%,32
-Grand Central Oyster Bar,16304883.0,New York,0%,32
-Delmonico Steakhouse,16154000.0,Las Vegas,0%,28
-Portland City Grill,16111510.0,Portland,0%,37
-Zehnder's of Frankenmuth,16063684.0,Frankenmuth,0%,22
-The Rustic Inn,15700000.0,Ft. Lauderdale,0%,9
-Harry Caray's Italian Steakhouse,15680000.0,Chicago,0%,13
-Keens Steakhouse,15629700.0,New York,0%,32
-The Lobster House,15450000.0,Cape May,0%,30
-China Live,15106280.0,San Francisco,0%,5
-Prime & Provisions,15100000.0,Chicago,0%,13
-Carmine's (Las Vegas),15067804.0,Las Vegas,0%,28
-Swan,15000000.0,Miami,0%,9
-15th Street Fisheries,14978103.0,Fort Lauderdale,0%,9
-Atlanta Fish Market,14972300.0,Atlanta,0%,10
-Acme Feed & Seed,14897125.0,Nashville,0%,42
-Hugo's Frog Bar & Fish House,14790123.0,Chicago,0%,13
-Cliff House,14465847.0,San Francisco,0%,5
-Castaway Burbank,14407413.0,Burbank,0%,5
-Matt's El Rancho,14381904.0,Austin,0%,43
-Timberline Steaks and Grille,14362103.0,Denver,0%,6
-Beauty & Essex (Las Vegas),14130500.0,Las Vegas,0%,28
-Carmine's (Atlantic City),13987843.0,Atlantic City,0%,30
-Junior's (Brooklyn),13908292.0,New York,0%,32
-Quartino Ristorante & Wine Bar,13854856.0,Chicago,0%,13
-Paradise Cove Beach Cafe,13654113.0,Malibu,0%,5
-BOA Steakhouse ,13552485.0,West Hollywood,0%,5
-Original Joe's,13177468.0,San Francisco,0%,5
-"Founding Farmers (McLean, Va.)",13102742.0,McLean,0%,46
-Siena Tavern,13100000.0,Chicago,0%,13
-Girl & the Goat,12894700.0,Chicago,0%,13
-Tavern on Rush,12884000.0,Chicago,0%,13
-Harry & Izzy's Circle Centre,12809921.0,Indianapolis,0%,14
-Scoma's,12713394.0,San Francisco,0%,5
-Farmers Fishers Bakers,12572109.0,Washington,0%,0
-Southern Steak & Oyster,12566618.0,Nashville,0%,42
-Big Texan Steak Ranch,12505200.0,Amarillo,0%,43
-"Park Avenue Summer (Autumn, Winter, Spring)",12498000.0,New York,0%,32
-Farmers & Distillers,12278839.0,Washington,0%,0
-Virgil's Real Barbecue,12245998.0,New York,0%,32
-"Carmine's (Washington, D.C.)",12228168.0,Washington,0%,0
-Franciscan Crab Restaurant,12218147.0,San Francisco,0%,5
-George's at the Cove,12194000.0,La Jolla,0%,5
-Le Coucou,12187523.0,New York,0%,32
-Mi Vida,12032014.0,Washington,0%,0
-Upland,11965564.0,New York,0%,32
-Virgil's Real Barbecue,11391678.0,Las Vegas,0%,28
-McDonald's,4041200000.0,Chicago,4.9%,13
-Starbucks,2138000000.0,Seattle,8.6%,47
-Chick-fil-A,1132000000.0,College Park,13.0%,10
-Taco Bell,1129300000.0,Irvine,9.0%,5
-Burger King,1020400000.0,Miami-Dade County,2.7%,9
-Subway,1020000000.0,Milford,-2.0%,7
-Wendy's,976200000.0,Dublin,4.2%,35
-Domino's,704400000.0,Ann Arbor,6.9%,22
-Panera Bread,589000000.0,Sunset Hills,4.0%,25
-Pizza Hut,555800000.0,Plano,0.6%,43
-Chipotle Mexican Grill,550900000.0,Newport Beach,14.8%,5
-Sonic Drive-In,468700000.0,Oklahoma City,4.6%,36
-KFC,454600000.0,Louisville,2.5%,17
-Olive Garden,428700000.0,Orlando,5.0%,9
-Applebee's,408500000.0,Glendale,-3.0%,5
-Panda Express,394600000.0,Rosemead,12.0%,5
-Arby's,388400000.0,Sandy Springs,1.9%,10
-Little Caesars,381100000.0,Detroit,2.7%,22
-Dairy Queen,376000000.0,Edina,2.9%,23
-Buffalo Wild Wings,366900000.0,Sandy Springs,-0.1%,10
-Jack in the Box,350400000.0,San Diego,1.1%,5
-IHOP,326600000.0,Glendale,2.0%,5
-Texas Roadhouse,301600000.0,Louisville,11.0%,17
-Denny's,269100000.0,Spartanburg,1.1%,40
-Outback Steakhouse,263500000.0,Tampa,0.9%,9
-Whataburger,255600000.0,San Antonio,5.8%,43
-Red Lobster,249000000.0,San Francisco,1.6%,5
-Cracker Barrel,248200000.0,Lebanon,1.8%,42
-The Cheesecake Factory,218000000.0,Calabasas,2.5%,5
-Zaxby's,188600000.0,Athens,6.0%,10
-LongHorn Steakhouse,186700000.0,Orlando,6.3%,9
-Culver's,179500000.0,Prairie du Sac,13.9%,49
-Golden Corral,174600000.0,Raleigh,0.8%,33
-Raising Cane's Chicken Fingers,146600000.0,Baton Rouge,23.8%,18
-Wingstop,136300000.0,Addison,19.0%,43
-Waffle House,134400000.0,Norcross,3.4%,10
-Jersey Mike's Subs,134000000.0,Wall Township,16.7%,30
-TGI Fridays,108500000.0,Dallas,-8.5%,43
-In-N-Out Burger,95700000.0,Irvine,4.6%,5
-Steak 'n Shake,95000000.0,Indianapolis,-7.7%,14
-El Pollo Loco,89400000.0,Costa Mesa,3.0%,5
-Krispy Kreme,88700000.0,Charlotte,4.4%,33
-Hooters,85800000.0,Atlanta,0.4%,10
-Del Taco,85000000.0,Lake Forest,4.0%,5
-Firehouse Subs,83200000.0,Jacksonville,4.8%,9
-Moe's Southwest Grill,74900000.0,Atlanta,2.0%,10
-Ruby Tuesday,73100000.0,Maryville,-11.4%,42
-McAlister's Deli,72500000.0,Sandy Springs,7.0%,10
-Cheddar's Scratch Kitchen,72400000.0,Orlando,0.6%,9
-Church's Chicken,71600000.0,Atlanta,-5.2%,10
-Tim Hortons,71400000.0,Toronto,-3.5%,0
-Ruth's Chris Steak House,70300000.0,Winter Park,1.6%,9
-Carrabba's Italian Grill,65300000.0,Tampa,-1.0%,9
-Jason's Deli,64700000.0,Beaumont,-1.1%,43
-Marco's Pizza,62800000.0,Toledo,4.8%,35
-Shake Shack,62200000.0,New York,31.8%,32
-California Pizza Kitchen,62100000.0,Los Angeles,-3.3%,5
-Baskin-Robbins,61500000.0,Canton,0.6%,21
-Yard House,60900000.0,Orlando,6.6%,9
-Bonefish Grill,58700000.0,Tampa,-0.9%,9
-White Castle,57900000.0,Columbus,2.4%,35
-Tropical Smoothie Cafe,57600000.0,Atlanta,21.8%,10
-Dave & Buster's,57100000.0,Dallas,6.5%,0
-Dutch Bros. Coffee,56700000.0,Grants Pass,15.0%,37
-Auntie Anne's,55900000.0,Sandy Springs,0.2%,10
-First Watch,55800000.0,University Park,35.1%,9
-Freddy's Frozen Custard & Steakburgers,53500000.0,Wichita,12.9%,16
-Noodles & Company,53300000.0,Broomfield,0.9%,6
-Einstein Bros. Bagels,51700000.0,Lakewood,-2.1%,6
-Boston Market,50100000.0,Golden,-9.9%,6
-The Habit Burger Grill,50000000.0,Irvine,14.5%,5
-Logan's Roadhouse,49600000.0,Nashville,-3.7%,42
-MOD Pizza,48300000.0,Bellevue,23.8%,47
-Smoothie King,46200000.0,Coppell,11.2%,43
-Mellow Mushroom,46100000.0,Atlanta,-0.3%,10
-The Capital Grille,46100000.0,Orlando,4.7%,9
-Round Table Pizza,45000000.0,Atlanta,1.3%,10
-Miller's Ale House,44600000.0,Orlando,10.2%,9
-Potbelly sandwich Shop,44600000.0,Chicago,-2.5%,13
-Hungry Howie's Pizza,43900000.0,Madison Heights,7.0%,22
-Charleys Philly Steaks,43500000.0,Columbus,4.9%,35
-Chuy's,42600000.0,Austin,7.1%,43
-O'Charley's,42600000.0,Nashville,-7.6%,42
-Pollo Tropical,42500000.0,Doral,-2.1%,9
-Maggiano's Little Italy,41700000.0,Dallas,1.1%,43
-Cicis,41000000.0,Irving,-1.4%,43
-Long John Silver's,40400000.0,Louisville,-8.2%,17
-Saltgrass Steak House,40200000.0,Houston,14.9%,43
-Chuck E. Cheese's,38100000.0,Irving,-0.5%,0
-Taco John's,37300000.0,Cheyenne,0.5%,50
-Texas de Brazil Churrascaria,37000000.0,Dallas,10.5%,0
-Cold Stone Creamery,36900000.0,Scottsdale,-2.3%,3
-Blaze Pizza,36600000.0,Pasadena,12.4%,5
-Peet's Coffee,35700000.0,Emeryville,4.3%,5
-Dickey's Barbecue Pit,34900000.0,Dallas,-9.2%,43
-Zoes Kitchen,34800000.0,Plano,1.2%,0
-Corner Bakery_Cafe,34800000.0,Dallas,-3.9%,0
-Krystal Co.,34300000.0,Dunwoody,-9.0%,0
-Benihana,34000000.0,Aventura,1.6%,9
-Cooper's Hawk Winery & Restaurants,33800000.0,Countryside,19.9%,0
-Big Boy/Frisch's Big Boy,33800000.0,Warren,-3.4%,0
-Black Bear Diner,33600000.0,Redding,15.3%,5
-Twin Peaks,33500000.0,Addison,2.6%,43
-Schlotzsky's,33500000.0,Atlanta,-0.5%,10
-Jet's Pizza,33100000.0,Sterling Heights,-1.8%,22
-Famous Dave's,32900000.0,Minnetonka,-8.0%,23
-On The Border Mexican Grill & Cantina,32700000.0,Irving,-6.1%,0
-Fogo de Chao,32600000.0,Plano,10.1%,0
-Ninety Nine Restaurants,32400000.0,Woburn,2.1%,0
-Village Inn,31300000.0,Nashville,-7.9%,42
-Taco Cabana,31100000.0,San Antonio,-4.4%,43
-Fleming's Prime Steakhouse & Wine Bar,30700000.0,Tampa,1.0%,9
-Caribou Coffee,30600000.0,Brooklyn Center,6.7%,23
-Jack's,29000000.0,Sumiton,9.8%,1
-Au Bon Pain,28900000.0,Richardson,-8.1%,43
-Bar Louie,28400000.0,Addison,-5.6%,43
-Sarku Japan,28100000.0,Markham,2.4%,0
-Old Chicago Pizza & Taproom,27500000.0,Broomfield,4.5%,6
-Rally's Hamburgers,27500000.0,Lexington,-3.5%,0
-Torchy's Tacos,27200000.0,Austin,17.3%,0
-Pizza Ranch,26900000.0,Orange City,7.3%,15
-Pappadeaux Seafood Kitchen,26900000.0,Houston,3.1%,43
-Braum's Ice Cream & Dairy Stores,26800000.0,Oklahoma City,2.2%,0
-Pei Wei Asian Diner,26800000.0,Irving,-12.5%,43
-Cafe Rio Mexican Grill,26700000.0,Salt Lake City,9.9%,0
-Morton's The Steakhouse,26600000.0,Houston,-1.5%,43
-Smashburger,26500000.0,Denver,-6.5%,6
-Wienerschnitzel,26500000.0,Irvine,3.6%,5
-Sizzler,25900000.0,Mission Viejo,-3.8%,5
-Seasons 52,25300000.0,Orlando,1.4%,9
-Pret A Manger,25200000.0,London,4.7%,0
-Godfather's Pizza,25000000.0,Omaha,4.9%,27
-Huddle House,24700000.0,Atlanta,0.9%,10
-Fazoli's,23800000.0,Lexington,2.8%,17
-Legal Sea Foods,22700000.0,Boston,-1.9%,21
-Newk's Eatery,22700000.0,Jackson,0.4%,24
-Fuzzy's Taco Shop,22500000.0,Fort Worth,8.6%,43
-Sbarro,21800000.0,Columbus,-4.0%,35
-Romano's Macaroni Grill,21800000.0,Denver,-4.6%,6
-Friendly's,21000000.0,Wilbraham,-15.3%,21
-Penn Station East Coast Subs,20100000.0,Cincinnati,0.8%,35
-Cinnabon,20100000.0,Sandy Springs,5.6%,10
-Uno Pizzeria & Grill,19600000.0,Boston,-12.9%,21
-J. Alexander's,19500000.0,Nashville,2.8%,42
-Luby's,19500000.0,Houston,-7.5%,43
-Le Pain Quotidien,19200000.0,New York,1.2%,32
-Sonny's BBQ,19100000.0,Maitland,-8.3%,9
-Buca di Beppo,18900000.0,Orlando,-5.7%,9
-Hard Rock Cafe,18700000.0,Davie,-5.2%,9
-Johnny Rockets,18600000.0,Wilbraham,-10.2%,21
-Fuddruckers,18500000.0,Houston,-15.8%,43
-The Original Pancake House,18500000.0,Portland,3.1%,37
-Sweetgreen,18400000.0,Culver City,16.8%,5
-Golden Chick,18300000.0,Richardson,6.7%,43
-Mountain Mike's Pizza,18100000.0,Newport Beach,10.9%,5
-The Melting Pot,18100000.0,Tampa,-6.5%,9
-Farmer Boys,17900000.0,Riverside,1.7%,5
-Donatos Pizza,17900000.0,Gahanna,3.8%,35
-Shoney's,17900000.0,Nashville,-4.4%,42
-Taco Bueno,17800000.0,Irving,-12.4%,43
-Claim Jumper,17700000.0,Houston,-10.2%,43
-Wetzel's Pretzels,17700000.0,Pasadena,3.9%,5
-Bill Miller Bar-B-Q,17000000.0,San Antonio,3.6%,43
-Black Angus Steakhouse,16800000.0,Los Angeles,1.6%,5
-Joe's Crab Shack,16600000.0,Houston,-7.4%,43
-LaRosa's Pizzeria,16400000.0,Cincinnati,3.7%,35
-Lee's Famous Recipe Chicken,16100000.0,Fort Walton Beach,-2.3%,9
-Wayback Burgers,15900000.0,Cheshire,2.0%,7
-McCormick & Schmick's,15700000.0,Houston,-15.6%,43
-Chicken Salad Chick,15300000.0,Auburn,39.5%,1
-Hurricane Grill & Wings,15100000.0,West Palm Beach,0.8%,9
-The Old Spaghetti Factory,15000000.0,Portland,2.2%,37
-Taziki's Mediterranean Cafe,14900000.0,Birmingham,11.9%,1
-Menchie's Frozen Yogurt,14900000.0,Encino,-3.1%,5
-Bruegger's Bagels,14800000.0,Denver,-4.5%,6
-Tijuana Flats,14700000.0,Maitland,6.5%,9
-Eddie V's Prime Seafood,14400000.0,Orlando,8.1%,9
-Topgolf,14400000.0,Dallas,14.6%,43
-Pappasito's Cantina,14300000.0,Houston,2.2%,43
-Pollo Campero,14300000.0,Dallas,1.1%,43
-Houlihan's,14300000.0,Leawood,-21.2%,16
-Great American Cookies,14200000.0,Atlanta,2.7%,10
-BurgerFi,13800000.0,Palm Beach,3.0%,9
-The Coffee Bean & Tea Leaf,13300000.0,Los Angeles,-2.1%,5
-Yogurtland,13200000.0,Irvine,-2.6%,5
-Daylight Donuts,13200000.0,Tulsa,2.2%,36
-Biggby Coffee,12900000.0,Lansing,3.8%,22
-L&L Hawaiian Barbecue,12900000.0,Honolulu,5.1%,11
-Rainforest Cafe,12900000.0,Houston,-10.4%,43
-Jollibee,12600000.0,Pasig,15.2%,0
+Restaurant,Sales,City,YOY_Sales,state_id,details
+Evergreens,2400000.0,Seattle,130.5%,47,future
+Clean Juice,4400000.0,Charlotte,121.9%,33,future
+Slapfish,2100000.0,Huntington Beach,81.0%,5,future
+Clean Eatz,2500000.0,Wilmington,79.7%,33,future
+Pokeworks,4900000.0,Irvine,77.1%,5,future
+Playa Bowls,3900000.0,Belmar,62.9%,30,future
+The Simple Greek,2400000.0,Blue Bell,52.5%,38,future
+Melt Shop,2000000.0,New York,39.6%,32,future
+Creamistry,2400000.0,Yorba Linda,36.8%,5,future
+Joella's Hot Chicken,2900000.0,Louisville,35.5%,17,future
+Eggs Up Grill,3000000.0,Spartanburg,35.4%,40,future
+Dog Haus,3900000.0,Pasadena,34.5%,5,future
+Teriyaki Madness,4100000.0,Denver,34.1%,6,future
+Bluestone Lane,4800000.0,New York,33.0%,32,future
+Original ChopShop,2100000.0,Plano,32.5%,43,future
+Rapid Fired Pizza,2400000.0,Kettering,32.2%,35,future
+Ike's Love & Sandwiches,4400000.0,San Francisco,30.8%,5,future
+Vitality Bowls,3700000.0,San Ramon,30.1%,5,future
+Hawkers Asian Street Fare,2200000.0,Orlando,30.0%,9,future
+Maple Street Biscuit Co.,3900000.0,Orange Park,28.9%,9,future
+Bulla Gastrobar,3200000.0,Doral,28.2%,9,future
+Duck Donuts,4400000.0,Mechanicsburg,28.0%,38,future
+The Little Beet,2300000.0,New York,26.5%,32,future
+Joe & The Juice,4700000.0,New York,25.9%,32,future
+By Chloe,3700000.0,New York,25.6%,32,future
+Sugarfire Smokehouse,3900000.0,Olivette,25.4%,25,future
+Bibibop Asian Grill,4400000.0,Columbus,24.6%,35,future
+Bubbakoo's Burritos,2800000.0,Wall Township,24.3%,30,future
+Dos Toros Taqueria,2800000.0,New York,24.0%,32,future
+The Pizza Press,2700000.0,Anaheim,23.7%,5,future
+The Lost Cajun,2000000.0,Frisco,23.0%,43,future
+Just Salad,4200000.0,New York,22.7%,32,future
+Jeni's Splendid Ice Creams,4200000.0,Columbus,22.4%,35,future
+Boqueria,2700000.0,New York,22.0%,32,future
+Quickway Japanese Hibachi,2200000.0,Fairfax,21.4%,46,future
+Surcheros,2200000.0,Douglas,21.3%,10,future
+Famous Toastery,4000000.0,Charlotte,21.2%,33,future
+Culinary Dropout,2000000.0,Scottsdale,20.8%,3,future
+Condado Tacos,3800000.0,Columbus,19.9%,35,future
+The Flying Biscuit Cafe,2900000.0,Atlanta,19.5%,10,future
+Blue Sushi Sake Grill,4900000.0,Omaha,19.5%,27,future
+The Human Bean,4700000.0,Medford,19.0%,37,future
+Spitz Mediterranean Street Food,2800000.0,Los Angeles,18.8%,5,future
+Tacos 4 Life,2500000.0,Conway,18.4%,4,future
+Pita Mediterranean Street Food,3800000.0,Fairburn,17.8%,10,future
+LA Crawfish,4800000.0,McAllen,17.6%,43,future
+&pizza,4500000.0,Washington,17.1%,0,future
+Super Duper Burgers,3900000.0,San Francisco,16.9%,5,future
+StoneFire Grill,3100000.0,Agoura Hills,16.0%,5,future
+Gus's World Famous Fried Chicken,4400000.0,Memphis,14.4%,42,future
+Carmine's (Times Square),39080335.0,New York,0%,32,independent
+The Boathouse Orlando,35218364.0,Orlando,0%,9,independent
+Old Ebbitt Grill,29104017.0,Washington,0%,0,independent
+LAVO Italian Restaurant & Nightclub,26916180.0,New York,0%,32,independent
+Bryant Park Grill & Cafe,26900000.0,New York,0%,32,independent
+Gibsons Bar & Steakhouse,25409952.0,Chicago,0%,13,independent
+Top of the World at the STRAT ,25233543.0,Las Vegas,0%,28,independent
+Maple & Ash,24837595.0,Chicago,0%,13,independent
+Balthazar,24547800.0,New York,0%,32,independent
+Smith & Wollensky,24501000.0,New York,0%,32,independent
+Angus Barn,24268160.0,Raleigh,0%,33,independent
+Prime 112,23800000.0,Miami Beach,0%,9,independent
+"Joe's Seafood, Prime Steak & Stone Crab",23660000.0,Washington,0%,0,independent
+Junior's (Times Square),23640652.0,New York,0%,32,independent
+The Hamilton,23138062.0,Washington,0%,0,independent
+"Joe's Seafood, Prime Steak & Stone Crab",22981600.0,Chicago,0%,13,independent
+"Joe's Seafood, Prime Steak & Stone Crab",22859400.0,Las Vegas,0%,28,independent
+Gibsons Italia,22749232.0,Chicago,0%,13,independent
+Komodo,22500000.0,Miami,0%,9,independent
+Buddakan,22395577.0,New York,0%,32,independent
+Bazaar Meat by Jose Andres,22181607.0,Las Vegas,0%,28,independent
+SW Steakhouse,21523650.0,Las Vegas,0%,28,independent
+St. Elmo Steak House,21422141.0,Indianapolis,0%,14,independent
+RPM Steak,20853300.0,Chicago,0%,13,independent
+Mon Ami Gabi,20120210.0,Las Vegas,0%,28,independent
+Gibsons Bar & Steakhouse,19831818.0,Oak Brook,0%,13,independent
+Paddlefish,19829500.0,Orlando,0%,9,independent
+Taste of Texas,19530159.0,Houston,0%,43,independent
+Parc,19379153.0,Philadelphia,0%,38,independent
+Bob Chinn's Crab House,18687601.0,Wheeling,0%,13,independent
+Quality Meats,18678000.0,New York,0%,32,independent
+Del Posto,18625033.0,New York,0%,32,independent
+Shooters Waterfront,18601433.0,Ft. Lauderdale,0%,9,independent
+Bottega Louie,18521000.0,Los Angeles,0%,5,independent
+Le Diplomate,18490719.0,Washington,0%,0,independent
+Gibsons Bar & Steakhouse,18483056.0,Rosemont,0%,13,independent
+Lavo Italian Restaurant & Lounge,18386262.0,Las Vegas,0%,28,independent
+Prime Steakhouse,18248030.0,Las Vegas,0%,28,independent
+Makoto,18216906.0,Bal Harbour,0%,9,independent
+Original Joe's Westlake,18159612.0,Daly City,0%,5,independent
+Shaw's Crab House,17965500.0,Chicago,0%,13,independent
+"Founding Farmers (Washington, D.C.)",17910045.0,Washington,0%,0,independent
+Junior's (49th Street),17834390.0,New York,0%,32,independent
+Chops Lobster Bar,17816450.0,Atlanta,0%,10,independent
+Chicago Cut Steakhouse,17743720.0,Chicago,0%,13,independent
+Swift & Sons,17637400.0,Chicago,0%,13,independent
+Harris Ranch Inn & Restaurant,17599468.0,Coalinga,0%,5,independent
+Sparks Steak House,17519030.0,New York,0%,32,independent
+Quality Italian,17519000.0,New York,0%,32,independent
+Frankenmuth Bavarian Inn,17388751.0,Frankenmuth,0%,22,independent
+Tavern on the Green,17212800.0,New York,0%,32,independent
+Abe & Louie's,17063477.0,Boston,0%,21,independent
+Rusty Pelican,16981741.0,Miami,0%,9,independent
+Beauty & Essex (New York City),16364050.0,New York,0%,32,independent
+Grand Central Oyster Bar,16304883.0,New York,0%,32,independent
+Delmonico Steakhouse,16154000.0,Las Vegas,0%,28,independent
+Portland City Grill,16111510.0,Portland,0%,37,independent
+Zehnder's of Frankenmuth,16063684.0,Frankenmuth,0%,22,independent
+The Rustic Inn,15700000.0,Ft. Lauderdale,0%,9,independent
+Harry Caray's Italian Steakhouse,15680000.0,Chicago,0%,13,independent
+Keens Steakhouse,15629700.0,New York,0%,32,independent
+The Lobster House,15450000.0,Cape May,0%,30,independent
+China Live,15106280.0,San Francisco,0%,5,independent
+Prime & Provisions,15100000.0,Chicago,0%,13,independent
+Carmine's (Las Vegas),15067804.0,Las Vegas,0%,28,independent
+Swan,15000000.0,Miami,0%,9,independent
+15th Street Fisheries,14978103.0,Fort Lauderdale,0%,9,independent
+Atlanta Fish Market,14972300.0,Atlanta,0%,10,independent
+Acme Feed & Seed,14897125.0,Nashville,0%,42,independent
+Hugo's Frog Bar & Fish House,14790123.0,Chicago,0%,13,independent
+Cliff House,14465847.0,San Francisco,0%,5,independent
+Castaway Burbank,14407413.0,Burbank,0%,5,independent
+Matt's El Rancho,14381904.0,Austin,0%,43,independent
+Timberline Steaks and Grille,14362103.0,Denver,0%,6,independent
+Beauty & Essex (Las Vegas),14130500.0,Las Vegas,0%,28,independent
+Carmine's (Atlantic City),13987843.0,Atlantic City,0%,30,independent
+Junior's (Brooklyn),13908292.0,New York,0%,32,independent
+Quartino Ristorante & Wine Bar,13854856.0,Chicago,0%,13,independent
+Paradise Cove Beach Cafe,13654113.0,Malibu,0%,5,independent
+BOA Steakhouse ,13552485.0,West Hollywood,0%,5,independent
+Original Joe's,13177468.0,San Francisco,0%,5,independent
+"Founding Farmers (McLean, Va.)",13102742.0,McLean,0%,46,independent
+Siena Tavern,13100000.0,Chicago,0%,13,independent
+Girl & the Goat,12894700.0,Chicago,0%,13,independent
+Tavern on Rush,12884000.0,Chicago,0%,13,independent
+Harry & Izzy's Circle Centre,12809921.0,Indianapolis,0%,14,independent
+Scoma's,12713394.0,San Francisco,0%,5,independent
+Farmers Fishers Bakers,12572109.0,Washington,0%,0,independent
+Southern Steak & Oyster,12566618.0,Nashville,0%,42,independent
+Big Texan Steak Ranch,12505200.0,Amarillo,0%,43,independent
+"Park Avenue Summer (Autumn, Winter, Spring)",12498000.0,New York,0%,32,independent
+Farmers & Distillers,12278839.0,Washington,0%,0,independent
+Virgil's Real Barbecue,12245998.0,New York,0%,32,independent
+"Carmine's (Washington, D.C.)",12228168.0,Washington,0%,0,independent
+Franciscan Crab Restaurant,12218147.0,San Francisco,0%,5,independent
+George's at the Cove,12194000.0,La Jolla,0%,5,independent
+Le Coucou,12187523.0,New York,0%,32,independent
+Mi Vida,12032014.0,Washington,0%,0,independent
+Upland,11965564.0,New York,0%,32,independent
+Virgil's Real Barbecue,11391678.0,Las Vegas,0%,28,independent
+McDonald's,4041200000.0,Chicago,4.9%,13,chain
+Starbucks,2138000000.0,Seattle,8.6%,47,chain
+Chick-fil-A,1132000000.0,College Park,13.0%,10,chain
+Taco Bell,1129300000.0,Irvine,9.0%,5,chain
+Burger King,1020400000.0,Miami-Dade County,2.7%,9,chain
+Subway,1020000000.0,Milford,-2.0%,7,chain
+Wendy's,976200000.0,Dublin,4.2%,35,chain
+Domino's,704400000.0,Ann Arbor,6.9%,22,chain
+Panera Bread,589000000.0,Sunset Hills,4.0%,25,chain
+Pizza Hut,555800000.0,Plano,0.6%,43,chain
+Chipotle Mexican Grill,550900000.0,Newport Beach,14.8%,5,chain
+Sonic Drive-In,468700000.0,Oklahoma City,4.6%,36,chain
+KFC,454600000.0,Louisville,2.5%,17,chain
+Olive Garden,428700000.0,Orlando,5.0%,9,chain
+Applebee's,408500000.0,Glendale,-3.0%,5,chain
+Panda Express,394600000.0,Rosemead,12.0%,5,chain
+Arby's,388400000.0,Sandy Springs,1.9%,10,chain
+Little Caesars,381100000.0,Detroit,2.7%,22,chain
+Dairy Queen,376000000.0,Edina,2.9%,23,chain
+Buffalo Wild Wings,366900000.0,Sandy Springs,-0.1%,10,chain
+Jack in the Box,350400000.0,San Diego,1.1%,5,chain
+IHOP,326600000.0,Glendale,2.0%,5,chain
+Texas Roadhouse,301600000.0,Louisville,11.0%,17,chain
+Denny's,269100000.0,Spartanburg,1.1%,40,chain
+Outback Steakhouse,263500000.0,Tampa,0.9%,9,chain
+Whataburger,255600000.0,San Antonio,5.8%,43,chain
+Red Lobster,249000000.0,San Francisco,1.6%,5,chain
+Cracker Barrel,248200000.0,Lebanon,1.8%,42,chain
+The Cheesecake Factory,218000000.0,Calabasas,2.5%,5,chain
+Zaxby's,188600000.0,Athens,6.0%,10,chain
+LongHorn Steakhouse,186700000.0,Orlando,6.3%,9,chain
+Culver's,179500000.0,Prairie du Sac,13.9%,49,chain
+Golden Corral,174600000.0,Raleigh,0.8%,33,chain
+Raising Cane's Chicken Fingers,146600000.0,Baton Rouge,23.8%,18,chain
+Wingstop,136300000.0,Addison,19.0%,43,chain
+Waffle House,134400000.0,Norcross,3.4%,10,chain
+Jersey Mike's Subs,134000000.0,Wall Township,16.7%,30,chain
+TGI Fridays,108500000.0,Dallas,-8.5%,43,chain
+In-N-Out Burger,95700000.0,Irvine,4.6%,5,chain
+Steak 'n Shake,95000000.0,Indianapolis,-7.7%,14,chain
+El Pollo Loco,89400000.0,Costa Mesa,3.0%,5,chain
+Krispy Kreme,88700000.0,Charlotte,4.4%,33,chain
+Hooters,85800000.0,Atlanta,0.4%,10,chain
+Del Taco,85000000.0,Lake Forest,4.0%,5,chain
+Firehouse Subs,83200000.0,Jacksonville,4.8%,9,chain
+Moe's Southwest Grill,74900000.0,Atlanta,2.0%,10,chain
+Ruby Tuesday,73100000.0,Maryville,-11.4%,42,chain
+McAlister's Deli,72500000.0,Sandy Springs,7.0%,10,chain
+Cheddar's Scratch Kitchen,72400000.0,Orlando,0.6%,9,chain
+Church's Chicken,71600000.0,Atlanta,-5.2%,10,chain
+Tim Hortons,71400000.0,Toronto,-3.5%,0,chain
+Ruth's Chris Steak House,70300000.0,Winter Park,1.6%,9,chain
+Carrabba's Italian Grill,65300000.0,Tampa,-1.0%,9,chain
+Jason's Deli,64700000.0,Beaumont,-1.1%,43,chain
+Marco's Pizza,62800000.0,Toledo,4.8%,35,chain
+Shake Shack,62200000.0,New York,31.8%,32,chain
+California Pizza Kitchen,62100000.0,Los Angeles,-3.3%,5,chain
+Baskin-Robbins,61500000.0,Canton,0.6%,21,chain
+Yard House,60900000.0,Orlando,6.6%,9,chain
+Bonefish Grill,58700000.0,Tampa,-0.9%,9,chain
+White Castle,57900000.0,Columbus,2.4%,35,chain
+Tropical Smoothie Cafe,57600000.0,Atlanta,21.8%,10,chain
+Dave & Buster's,57100000.0,Dallas,6.5%,0,chain
+Dutch Bros. Coffee,56700000.0,Grants Pass,15.0%,37,chain
+Auntie Anne's,55900000.0,Sandy Springs,0.2%,10,chain
+First Watch,55800000.0,University Park,35.1%,9,chain
+Freddy's Frozen Custard & Steakburgers,53500000.0,Wichita,12.9%,16,chain
+Noodles & Company,53300000.0,Broomfield,0.9%,6,chain
+Einstein Bros. Bagels,51700000.0,Lakewood,-2.1%,6,chain
+Boston Market,50100000.0,Golden,-9.9%,6,chain
+The Habit Burger Grill,50000000.0,Irvine,14.5%,5,chain
+Logan's Roadhouse,49600000.0,Nashville,-3.7%,42,chain
+MOD Pizza,48300000.0,Bellevue,23.8%,47,chain
+Smoothie King,46200000.0,Coppell,11.2%,43,chain
+Mellow Mushroom,46100000.0,Atlanta,-0.3%,10,chain
+The Capital Grille,46100000.0,Orlando,4.7%,9,chain
+Round Table Pizza,45000000.0,Atlanta,1.3%,10,chain
+Miller's Ale House,44600000.0,Orlando,10.2%,9,chain
+Potbelly sandwich Shop,44600000.0,Chicago,-2.5%,13,chain
+Hungry Howie's Pizza,43900000.0,Madison Heights,7.0%,22,chain
+Charleys Philly Steaks,43500000.0,Columbus,4.9%,35,chain
+Chuy's,42600000.0,Austin,7.1%,43,chain
+O'Charley's,42600000.0,Nashville,-7.6%,42,chain
+Pollo Tropical,42500000.0,Doral,-2.1%,9,chain
+Maggiano's Little Italy,41700000.0,Dallas,1.1%,43,chain
+Cicis,41000000.0,Irving,-1.4%,43,chain
+Long John Silver's,40400000.0,Louisville,-8.2%,17,chain
+Saltgrass Steak House,40200000.0,Houston,14.9%,43,chain
+Chuck E. Cheese's,38100000.0,Irving,-0.5%,0,chain
+Taco John's,37300000.0,Cheyenne,0.5%,50,chain
+Texas de Brazil Churrascaria,37000000.0,Dallas,10.5%,0,chain
+Cold Stone Creamery,36900000.0,Scottsdale,-2.3%,3,chain
+Blaze Pizza,36600000.0,Pasadena,12.4%,5,chain
+Peet's Coffee,35700000.0,Emeryville,4.3%,5,chain
+Dickey's Barbecue Pit,34900000.0,Dallas,-9.2%,43,chain
+Zoes Kitchen,34800000.0,Plano,1.2%,0,chain
+Corner Bakery_Cafe,34800000.0,Dallas,-3.9%,0,chain
+Krystal Co.,34300000.0,Dunwoody,-9.0%,0,chain
+Benihana,34000000.0,Aventura,1.6%,9,chain
+Cooper's Hawk Winery & Restaurants,33800000.0,Countryside,19.9%,0,chain
+Big Boy/Frisch's Big Boy,33800000.0,Warren,-3.4%,0,chain
+Black Bear Diner,33600000.0,Redding,15.3%,5,chain
+Twin Peaks,33500000.0,Addison,2.6%,43,chain
+Schlotzsky's,33500000.0,Atlanta,-0.5%,10,chain
+Jet's Pizza,33100000.0,Sterling Heights,-1.8%,22,chain
+Famous Dave's,32900000.0,Minnetonka,-8.0%,23,chain
+On The Border Mexican Grill & Cantina,32700000.0,Irving,-6.1%,0,chain
+Fogo de Chao,32600000.0,Plano,10.1%,0,chain
+Ninety Nine Restaurants,32400000.0,Woburn,2.1%,0,chain
+Village Inn,31300000.0,Nashville,-7.9%,42,chain
+Taco Cabana,31100000.0,San Antonio,-4.4%,43,chain
+Fleming's Prime Steakhouse & Wine Bar,30700000.0,Tampa,1.0%,9,chain
+Caribou Coffee,30600000.0,Brooklyn Center,6.7%,23,chain
+Jack's,29000000.0,Sumiton,9.8%,1,chain
+Au Bon Pain,28900000.0,Richardson,-8.1%,43,chain
+Bar Louie,28400000.0,Addison,-5.6%,43,chain
+Sarku Japan,28100000.0,Markham,2.4%,0,chain
+Old Chicago Pizza & Taproom,27500000.0,Broomfield,4.5%,6,chain
+Rally's Hamburgers,27500000.0,Lexington,-3.5%,0,chain
+Torchy's Tacos,27200000.0,Austin,17.3%,0,chain
+Pizza Ranch,26900000.0,Orange City,7.3%,15,chain
+Pappadeaux Seafood Kitchen,26900000.0,Houston,3.1%,43,chain
+Braum's Ice Cream & Dairy Stores,26800000.0,Oklahoma City,2.2%,0,chain
+Pei Wei Asian Diner,26800000.0,Irving,-12.5%,43,chain
+Cafe Rio Mexican Grill,26700000.0,Salt Lake City,9.9%,0,chain
+Morton's The Steakhouse,26600000.0,Houston,-1.5%,43,chain
+Smashburger,26500000.0,Denver,-6.5%,6,chain
+Wienerschnitzel,26500000.0,Irvine,3.6%,5,chain
+Sizzler,25900000.0,Mission Viejo,-3.8%,5,chain
+Seasons 52,25300000.0,Orlando,1.4%,9,chain
+Pret A Manger,25200000.0,London,4.7%,0,chain
+Godfather's Pizza,25000000.0,Omaha,4.9%,27,chain
+Huddle House,24700000.0,Atlanta,0.9%,10,chain
+Fazoli's,23800000.0,Lexington,2.8%,17,chain
+Legal Sea Foods,22700000.0,Boston,-1.9%,21,chain
+Newk's Eatery,22700000.0,Jackson,0.4%,24,chain
+Fuzzy's Taco Shop,22500000.0,Fort Worth,8.6%,43,chain
+Sbarro,21800000.0,Columbus,-4.0%,35,chain
+Romano's Macaroni Grill,21800000.0,Denver,-4.6%,6,chain
+Friendly's,21000000.0,Wilbraham,-15.3%,21,chain
+Penn Station East Coast Subs,20100000.0,Cincinnati,0.8%,35,chain
+Cinnabon,20100000.0,Sandy Springs,5.6%,10,chain
+Uno Pizzeria & Grill,19600000.0,Boston,-12.9%,21,chain
+J. Alexander's,19500000.0,Nashville,2.8%,42,chain
+Luby's,19500000.0,Houston,-7.5%,43,chain
+Le Pain Quotidien,19200000.0,New York,1.2%,32,chain
+Sonny's BBQ,19100000.0,Maitland,-8.3%,9,chain
+Buca di Beppo,18900000.0,Orlando,-5.7%,9,chain
+Hard Rock Cafe,18700000.0,Davie,-5.2%,9,chain
+Johnny Rockets,18600000.0,Wilbraham,-10.2%,21,chain
+Fuddruckers,18500000.0,Houston,-15.8%,43,chain
+The Original Pancake House,18500000.0,Portland,3.1%,37,chain
+Sweetgreen,18400000.0,Culver City,16.8%,5,chain
+Golden Chick,18300000.0,Richardson,6.7%,43,chain
+Mountain Mike's Pizza,18100000.0,Newport Beach,10.9%,5,chain
+The Melting Pot,18100000.0,Tampa,-6.5%,9,chain
+Farmer Boys,17900000.0,Riverside,1.7%,5,chain
+Donatos Pizza,17900000.0,Gahanna,3.8%,35,chain
+Shoney's,17900000.0,Nashville,-4.4%,42,chain
+Taco Bueno,17800000.0,Irving,-12.4%,43,chain
+Claim Jumper,17700000.0,Houston,-10.2%,43,chain
+Wetzel's Pretzels,17700000.0,Pasadena,3.9%,5,chain
+Bill Miller Bar-B-Q,17000000.0,San Antonio,3.6%,43,chain
+Black Angus Steakhouse,16800000.0,Los Angeles,1.6%,5,chain
+Joe's Crab Shack,16600000.0,Houston,-7.4%,43,chain
+LaRosa's Pizzeria,16400000.0,Cincinnati,3.7%,35,chain
+Lee's Famous Recipe Chicken,16100000.0,Fort Walton Beach,-2.3%,9,chain
+Wayback Burgers,15900000.0,Cheshire,2.0%,7,chain
+McCormick & Schmick's,15700000.0,Houston,-15.6%,43,chain
+Chicken Salad Chick,15300000.0,Auburn,39.5%,1,chain
+Hurricane Grill & Wings,15100000.0,West Palm Beach,0.8%,9,chain
+The Old Spaghetti Factory,15000000.0,Portland,2.2%,37,chain
+Taziki's Mediterranean Cafe,14900000.0,Birmingham,11.9%,1,chain
+Menchie's Frozen Yogurt,14900000.0,Encino,-3.1%,5,chain
+Bruegger's Bagels,14800000.0,Denver,-4.5%,6,chain
+Tijuana Flats,14700000.0,Maitland,6.5%,9,chain
+Eddie V's Prime Seafood,14400000.0,Orlando,8.1%,9,chain
+Topgolf,14400000.0,Dallas,14.6%,43,chain
+Pappasito's Cantina,14300000.0,Houston,2.2%,43,chain
+Pollo Campero,14300000.0,Dallas,1.1%,43,chain
+Houlihan's,14300000.0,Leawood,-21.2%,16,chain
+Great American Cookies,14200000.0,Atlanta,2.7%,10,chain
+BurgerFi,13800000.0,Palm Beach,3.0%,9,chain
+The Coffee Bean & Tea Leaf,13300000.0,Los Angeles,-2.1%,5,chain
+Yogurtland,13200000.0,Irvine,-2.6%,5,chain
+Daylight Donuts,13200000.0,Tulsa,2.2%,36,chain
+Biggby Coffee,12900000.0,Lansing,3.8%,22,chain
+L&L Hawaiian Barbecue,12900000.0,Honolulu,5.1%,11,chain
+Rainforest Cafe,12900000.0,Houston,-10.4%,43,chain
+Jollibee,12600000.0,Pasig,15.2%,0,chain
