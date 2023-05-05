@@ -203,6 +203,9 @@ def get_business_crimes_info(business_id):
         'state_id': business.state_id
     }
 
+    if not crimes_vs_person:
+        return jsonify({'error': 'Data not found'}), 404
+
     crimes_info = {
         'crimes_vs_person': {
             'assault_offenses': crimes_vs_person.assault_offenses,
