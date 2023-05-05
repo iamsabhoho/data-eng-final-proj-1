@@ -6,6 +6,7 @@ app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///mydb.sqlite3'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
+app.app_context().push()
 
 class State(db.Model):
     __tablename__ = 'states'
@@ -89,6 +90,7 @@ db.create_all()
 
 
 def populate_db():
+    # with app.app_context():
     # Read CSV files
     business_df = pd.read_csv('business_df.csv')
     state_df = pd.read_csv('state_df.csv')
@@ -129,31 +131,31 @@ def populate_db():
     # Add CrimesVsProperty
     for _, row in crimes_vs_property_df.iterrows():
         crime = CrimesVsProperty(number_of_participating_agencies=row['Number of Participating Agencies'],
-                                  population_covered=row['Population Covered'],
-                                  arson=row['Arson'],
-                                  bribery=row['Bribery'],
-                                  burglary_breaking_entering=row['Burglary/Breaking & Entering'],
-                                  counterfeiting_forgery=row['Counterfeiting/Forgery'],
-                                  destruction_damage_vandalism=row['Destruction/Damage/Vandalism'],
-                                  embezzlement=row['Embezzlement'],
-                                  extortion_blackmail=row['Extortion/Blackmail'],
-                                  fraud_offenses=row['Fraud Offenses'],
-                                  larceny_theft_offenses=row['Larceny/Theft Offenses'],
-                                  motor_vehicle_theft=row['Motor Vehicle Theft'],
-                                  robbery=row['Robbery'],
-                                  stolen_property_offenses=row['Stolen Property Offenses'],
-                                  state_id=row['state_id'],)
+                                population_covered=row['Population Covered'],
+                                arson=row['Arson'],
+                                bribery=row['Bribery'],
+                                burglary_breaking_entering=row['Burglary/Breaking & Entering'],
+                                counterfeiting_forgery=row['Counterfeiting/Forgery'],
+                                destruction_damage_vandalism=row['Destruction/Damage/Vandalism'],
+                                embezzlement=row['Embezzlement'],
+                                extortion_blackmail=row['Extortion/Blackmail'],
+                                fraud_offenses=row['Fraud Offenses'],
+                                larceny_theft_offenses=row['Larceny/Theft Offenses'],
+                                motor_vehicle_theft=row['Motor Vehicle Theft'],
+                                robbery=row['Robbery'],
+                                stolen_property_offenses=row['Stolen Property Offenses'],
+                                state_id=row['state_id'],)
         db.session.add(crime)
 
     # Add CrimesVsSociety
     for _, row in crimes_vs_society_df.iterrows():
         crime = CrimesVsSociety(animal_cruelty=row['Animal Cruelty'],
-                                 drug_narcotic_offenses=row['Drug/Narcotic Offenses'],
-                                 gambling_offenses=row['Gambling Offenses'],
-                                 pornography_obscene_material=row['Pornography/Obscene Material'],
-                                 prostitution_offenses=row['Prostitution Offenses'],
-                                 weapon_law_violations=row['Weapon Law Violations'],
-                                 state_id=row['state_id'])
+                                drug_narcotic_offenses=row['Drug/Narcotic Offenses'],
+                                gambling_offenses=row['Gambling Offenses'],
+                                pornography_obscene_material=row['Pornography/Obscene Material'],
+                                prostitution_offenses=row['Prostitution Offenses'],
+                                weapon_law_violations=row['Weapon Law Violations'],
+                                state_id=row['state_id'])
         db.session.add(crime)
 
     db.session.commit()
@@ -244,5 +246,8 @@ def get_business_crimes_info(business_id):
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    with app.app_context():
+        # Uncomment the following line to populate the database
+        # populate_db()
+        app.run(debug=True)
 
