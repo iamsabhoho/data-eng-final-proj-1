@@ -1,4 +1,4 @@
-from flask import Flask, jsonify
+from flask import Flask, jsonify, request
 from flask_sqlalchemy import SQLAlchemy
 import pandas as pd
 
@@ -247,6 +247,101 @@ def get_business_crimes_info(business_id):
 
     return jsonify(response)
 
+@app.route('/api/business/add_data', methods=['POST'])
+def add_business():
+    data = request.get_json()
+    #Add new business
+    new_business = Business(restaurant=data['business']['restaurant'],
+                            sales=data['business']['sales'],
+                            city=data['business']['city'],
+                            yoy_sales=data['business']['yoy_sales'],
+                            state_id=data['business']['state_id'],
+                            detail=data['business']['detail'])
+    #Add crime to databases
+    new_crimes_vs_person = CrimesVsPerson(
+        assault_offenses=data['crimes']['crimes_vs_person']['assault_offenses'],
+        homicide_offenses=data['crimes']['crimes_vs_person']['homicide_offenses'],
+        human_trafficking=data['crimes']['crimes_vs_person']['human_trafficking'],
+        kidnapping_abduction=data['crimes']['crimes_vs_person']['kidnapping_abduction'],
+        sex_offenses=data['crimes']['crimes_vs_person']['sex_offenses'],
+        state=new_business.state
+    )
+
+    new_crimes_vs_property = CrimesVsProperty(
+        number_of_participating_agencies=data['crimes']['crimes_vs_property']['number_of_participating_agencies'],
+        population_covered=data['crimes']['crimes_vs_property']['population_covered'],
+        arson=data['crimes']['crimes_vs_property']['arson'],
+        bribery=data['crimes']['crimes_vs_property']['bribery'],
+        burglary_breaking_entering=data['crimes']['crimes_vs_property']['burglary_breaking_entering'],
+        counterfeiting_forgery=data['crimes']['crimes_vs_property']['counterfeiting_forgery'],
+        destruction_damage_vandalism=data['crimes']['crimes_vs_property']['destruction_damage_vandalism'],
+        embezzlement=data['crimes']['crimes_vs_property']['embezzlement'],
+        extortion_blackmail=data['crimes']['crimes_vs_property']['extortion_blackmail'],
+        fraud_offenses=data['crimes']['crimes_vs_property']['fraud_offenses'],
+        larceny_theft_offenses=data['crimes']['crimes_vs_property']['larceny_theft_offenses'],
+        motor_vehicle_theft=data['crimes']['crimes_vs_property']['motor_vehicle_theft'],
+        robbery=data['crimes']['crimes_vs_property']['robbery'],
+        stolen_property_offenses=data['crimes']['crimes_vs_property']['stolen_property_offenses'],
+        state=new_business.state
+    )
+
+    new_crimes_vs_society = CrimesVsSociety(
+        animal_cruelty=data['crimes']['crimes_vs_society']['animal_cruelty'],
+        drug_narcotic_offenses=data['crimes']['crimes_vs_society']['drug_narcotic_offenses'],
+        gambling_offenses=data['crimes']['crimes_vs_society']['gambling_offenses'],
+        pornography_obscene_material=data['crimes']['crimes_vs_society']['pornography_obscene_material'],
+        prostitution_offenses=data['crimes']['crimes_vs_society']['prostitution_offenses'],
+        weapon_law_violations=data['crimes']['crimes_vs_society']['weapon_law_violations'],
+        state=new_business.state
+    )
+
+    # Add new instances to the database session and commit changes
+    db.session.add_all([new_business, new_crimes_vs_person, new_crimes_vs_property, new_crimes_vs_society])
+    db.session.commit()
+
+    response = {
+        'business': {
+            'restaurant': new_business.restaurant,
+            'sales': new_business.sales,
+            'city': new_business.city,
+            'yoy_sales': new_business.yoy_sales,
+            'state_id': new_business.state_id,
+            'detail': new_business.detail,
+        },
+        'crimes_vs_person': {
+            'assault_offenses': new_crimes_vs_person.assault_offenses,
+            'homicide_offenses': new_crimes_vs_person.homicide_offenses,
+            'human_trafficking': new_crimes_vs_person.human_trafficking,
+            'kidnapping_abduction': new_crimes_vs_person.kidnapping_abduction,
+            'sex_offenses': new_crimes_vs_person.sex_offenses,
+        },
+        'crimes_vs_property': {
+            'number_of_participating_agencies': new_crimes_vs_property.number_of_participating_agencies,
+            'population_covered': new_crimes_vs_property.population_covered,
+            'arson': new_crimes_vs_property.arson,
+            'bribery': new_crimes_vs_property.bribery,
+            'burglary_breaking_entering': new_crimes_vs_property.burglary_breaking_entering,
+            'counterfeiting_forgery': new_crimes_vs_property.counterfeiting_forgery,
+            'destruction_damage_vandalism': new_crimes_vs_property.destruction_damage_vandalism,
+            'embezzlement': new_crimes_vs_property.embezzlement,
+            'extortion_blackmail': new_crimes_vs_property.extortion_blackmail,
+            'fraud_offenses': new_crimes_vs_property.fraud_offenses,
+            'larceny_theft_offenses': new_crimes_vs_property.larceny_theft_offenses,
+            'motor_vehicle_theft': new_crimes_vs_property.motor_vehicle_theft,
+            'robbery': new_crimes_vs_property.robbery,
+            'stolen_property_offenses': new_crimes_vs_property.stolen_property_offenses,
+        },
+        'crimes_vs_society': {
+            'animal_cruelty': new_crimes_vs_society.animal_cruelty,
+            'drug_narcotic_offenses': new_crimes_vs_society.drug_narcotic_offenses,
+            'gambling_offenses': new_crimes_vs_society.gambling_offenses,
+            'pornography_obscene_material': new_crimes_vs_society.pornography_obscene_material,
+            'prostitution_offenses': new_crimes_vs_society.prostitution_offenses,
+            'weapon_law_violations': new_crimes_vs_society.weapon_law_violations,
+        }
+    }
+
+    return jsonify(response)
 
 if __name__ == '__main__':
     with app.app_context():
