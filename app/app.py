@@ -495,6 +495,15 @@ def report():
                            mapfigure = mapfigure,
                            scatter = scatter)
 
+@app.route('/api/businesses/<int:business_id>', methods=['DELETE'])
+def delete_business(business_id):
+    business = Business.query.get_or_404(business_id)
+    db.session.delete(business)
+    db.session.commit()
+ 
+    return jsonify({'message': f'Business with ID {business_id} has been deleted'})
+
+"""
 @app.route('/api/business/delete_data', methods=['DELETE'])
 def delete_data():
     data = request.get_json()
@@ -597,6 +606,7 @@ def delete_data():
     }
 
     return jsonify(response)
+"""
 
 @app.route('/api/business/update_data', methods=['PUT'])
 def update_data():
