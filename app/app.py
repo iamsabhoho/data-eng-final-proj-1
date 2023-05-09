@@ -1,6 +1,10 @@
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request, render_template
 from flask_sqlalchemy import SQLAlchemy
 import pandas as pd
+import plotly.express as px
+import plotly 
+import json
+
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///mydb.sqlite3'
@@ -342,6 +346,157 @@ def add_business():
     }
 
     return jsonify(response)
+
+
+@app.route('/api/generate_report', methods=['GET'])
+def report():
+    """
+    Generates plotly report of the data. 
+    """
+
+    business = Business
+    state = State.query.all()
+    state_res = []
+    for s in state:
+        state_res.append({
+            'id': s.id,
+            'state':s.name,
+        })
+    state_res = pd.DataFrame(state_res)
+    
+    cvprop = CrimesVsProperty
+    cvs = CrimesVsSociety
+
+    businesses = Business.query.join(State).all()
+    business_result = []
+
+    for business in businesses:
+        business_result.append({
+            'id': business.id,
+            'restaurant': business.restaurant,
+            'sales': business.sales,
+            'city': business.city,
+            'state': business.state.name,
+            'yoy_sales': business.yoy_sales
+        })
+    business_result = pd.DataFrame(business_result)
+
+
+    business_agg = business_result.groupby('state').agg('sum').reset_index()
+    
+    business_agg = business_agg.merge(state_res, on = 'state', how = 'right', suffixes=('_x', '_state'))
+    business_agg['state_id'] = business_agg['id_state']
+    business_agg = business_agg.drop('id_state', axis = 1)
+    
+    cvpers = CrimesVsPerson.query.join(State).all()
+    cvpers_results = []
+
+    for crimeperson in cvpers:
+        cvpers_results.append({
+            'assault_offenses': crimeperson.assault_offenses,
+            'homicide_offenses': crimeperson.homicide_offenses,
+            'human_trafficking': crimeperson.human_trafficking,
+            'kidnapping_abduction': crimeperson.kidnapping_abduction,
+            'sex_offenses': crimeperson.sex_offenses,
+            'state_id': crimeperson.state_id,
+        })
+
+    cvpers_results = pd.DataFrame(cvpers_results).groupby('state_id').agg('sum').reset_index()
+    
+    agg_res = cvpers_results.merge(business_agg, on = 'state_id', how = 'inner')
+
+
+    us_state_to_abbrev = {
+        "Alabama": "AL",
+        "Alaska": "AK",
+        "Arizona": "AZ",
+        "Arkansas": "AR",
+        "California": "CA",
+        "Colorado": "CO",
+        "Connecticut": "CT",
+        "Delaware": "DE",
+        "Florida": "FL",
+        "Georgia": "GA",
+        "Hawaii": "HI",
+        "Idaho": "ID",
+        "Illinois": "IL",
+        "Indiana": "IN",
+        "Iowa": "IA",
+        "Kansas": "KS",
+        "Kentucky": "KY",
+        "Louisiana": "LA",
+        "Maine": "ME",
+        "Maryland": "MD",
+        "Massachusetts": "MA",
+        "Michigan": "MI",
+        "Minnesota": "MN",
+        "Mississippi": "MS",
+        "Missouri": "MO",
+        "Montana": "MT",
+        "Nebraska": "NE",
+        "Nevada": "NV",
+        "New Hampshire": "NH",
+        "New Jersey": "NJ",
+        "New Mexico": "NM",
+        "New York": "NY",
+        "North Carolina": "NC",
+        "North Dakota": "ND",
+        "Ohio": "OH",
+        "Oklahoma": "OK",
+        "Oregon": "OR",
+        "Pennsylvania": "PA",
+        "Rhode Island": "RI",
+        "South Carolina": "SC",
+        "South Dakota": "SD",
+        "Tennessee": "TN",
+        "Texas": "TX",
+        "Utah": "UT",
+        "Vermont": "VT",
+        "Virginia": "VA",
+        "Washington": "WA",
+        "West Virginia": "WV",
+        "Wisconsin": "WI",
+        "Wyoming": "WY",
+        "District of Columbia": "DC",
+        "American Samoa": "AS",
+        "Guam": "GU",
+        "Northern Mariana Islands": "MP",
+        "Puerto Rico": "PR",
+        "United States Minor Outlying Islands": "UM",
+        "U.S. Virgin Islands": "VI",
+        }
+
+    agg_res['state'] = agg_res['state'].apply(lambda x: us_state_to_abbrev[x])
+
+    
+    fig1 = px.bar(business_agg, x = 'state', y = 'sales', title = 'Total sales of each state')
+    fig1.update_traces(textfont_size=12, textangle=0, textposition="outside", cliponaxis=False)
+
+    map_figure = px.choropleth(agg_res, 
+                               locations = 'state', 
+                               color = 'homicide_offenses', 
+                               color_continuous_scale="Viridis_r",
+                               locationmode="USA-states",
+                               scope = 'usa',
+                               title = 'Total Homicides in each State')
+    
+    print(agg_res.columns)
+    scatter = px.scatter(agg_res, x = 'sales', y = 'homicide_offenses',
+                         title = 'Sales v.s. Homicides',
+                         trendline = 'ols')
+    
+    stateSales = json.dumps(fig1, cls=plotly.utils.PlotlyJSONEncoder)
+    mapfigure = json.dumps(map_figure, cls=plotly.utils.PlotlyJSONEncoder)
+    scatter = json.dumps(scatter, cls=plotly.utils.PlotlyJSONEncoder)
+
+
+
+    return render_template('notdash.html', stateSales=stateSales, 
+                           mapfigure = mapfigure,
+                           scatter = scatter)
+
+
+    
 
 if __name__ == '__main__':
     with app.app_context():

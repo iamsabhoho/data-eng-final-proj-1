@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+ <body>
+  <h1>Aggregated results of sales, homicides by state, and correlation between sales and homicides</h1>
+  <div id='scatter' class='scatter'”></div>
+  <div id='mapfigure' class = 'mapfigure'></div>
+  <div id='statesales' class='statesales'></div>
+
+</body>
+<script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+<script type='text/javascript'>
+
+  var stateSales = {{stateSales | safe}};
+  Plotly.plot('statesales',stateSales,{});
+
+  var scatter = {{scatter | safe}};
+  Plotly.plot('scatter',scatter,{});
+
+  var mapfigure = {{mapfigure | safe}};
+  Plotly.plot('mapfigure',mapfigure,{});
+
+  
+</script>
+
+
+</html>
+
