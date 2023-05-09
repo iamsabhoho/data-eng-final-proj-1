@@ -495,7 +495,7 @@ def report():
                            mapfigure = mapfigure,
                            scatter = scatter)
 
-@app.route('/api/businesses/<int:business_id>', methods=['DELETE'])
+@app.route('/api/businesses/<int:business_id>/crimes', methods=['DELETE'])
 def delete_business(business_id):
     business = Business.query.get_or_404(business_id)
     db.session.delete(business)
@@ -503,110 +503,6 @@ def delete_business(business_id):
  
     return jsonify({'message': f'Business with ID {business_id} has been deleted'})
 
-"""
-@app.route('/api/business/delete_data', methods=['DELETE'])
-def delete_data():
-    data = request.get_json()
-
-    # delete business
-    delete_business = Business(restaurant=data['business']['restaurant'],
-                            sales=data['business']['sales'],
-                            city=data['business']['city'],
-                            yoy_sales=data['business']['yoy_sales'],
-                            state_id=data['business']['state_id'],
-                            detail=data['business']['detail'])
-
-    # delete crime vs person
-    delete_crimes_vs_person = CrimesVsPerson(
-        assault_offenses=data['crimes']['crimes_vs_person']['assault_offenses'],
-        homicide_offenses=data['crimes']['crimes_vs_person']['homicide_offenses'],
-        human_trafficking=data['crimes']['crimes_vs_person']['human_trafficking'],
-        kidnapping_abduction=data['crimes']['crimes_vs_person']['kidnapping_abduction'],
-        sex_offenses=data['crimes']['crimes_vs_person']['sex_offenses'],
-        state=delete_business.state
-    )
-
-    # delete crime vs property
-    delete_crimes_vs_property = CrimesVsProperty(
-        number_of_participating_agencies=data['crimes']['crimes_vs_property']['number_of_participating_agencies'],
-        population_covered=data['crimes']['crimes_vs_property']['population_covered'],
-        arson=data['crimes']['crimes_vs_property']['arson'],
-        bribery=data['crimes']['crimes_vs_property']['bribery'],
-        burglary_breaking_entering=data['crimes']['crimes_vs_property']['burglary_breaking_entering'],
-        counterfeiting_forgery=data['crimes']['crimes_vs_property']['counterfeiting_forgery'],
-        destruction_damage_vandalism=data['crimes']['crimes_vs_property']['destruction_damage_vandalism'],
-        embezzlement=data['crimes']['crimes_vs_property']['embezzlement'],
-        extortion_blackmail=data['crimes']['crimes_vs_property']['extortion_blackmail'],
-        fraud_offenses=data['crimes']['crimes_vs_property']['fraud_offenses'],
-        larceny_theft_offenses=data['crimes']['crimes_vs_property']['larceny_theft_offenses'],
-        motor_vehicle_theft=data['crimes']['crimes_vs_property']['motor_vehicle_theft'],
-        robbery=data['crimes']['crimes_vs_property']['robbery'],
-        stolen_property_offenses=data['crimes']['crimes_vs_property']['stolen_property_offenses'],
-        state=delete_business.state
-    )
-
-    # delete crime vs society
-    delete_crimes_vs_society = CrimesVsSociety(
-        animal_cruelty=data['crimes']['crimes_vs_society']['animal_cruelty'],
-        drug_narcotic_offenses=data['crimes']['crimes_vs_society']['drug_narcotic_offenses'],
-        gambling_offenses=data['crimes']['crimes_vs_society']['gambling_offenses'],
-        pornography_obscene_material=data['crimes']['crimes_vs_society']['pornography_obscene_material'],
-        prostitution_offenses=data['crimes']['crimes_vs_society']['prostitution_offenses'],
-        weapon_law_violations=data['crimes']['crimes_vs_society']['weapon_law_violations'],
-        state=delete_business.state
-    )
-
-    # delete the tables and commit changes
-    db.session.delete(delete_business)
-    db.session.delete(delete_crimes_vs_person)
-    db.session.delete(delete_crimes_vs_property)
-    db.session.delete(delete_crimes_vs_society)
-    db.session.commit()
-
-    response = {
-        'business': {
-            'restaurant': delete_business.restaurant,
-            'sales': delete_business.sales,
-            'city': delete_business.city,
-            'yoy_sales': delete_business.yoy_sales,
-            'state_id': delete_business.state_id,
-            'detail': delete_business.detail,
-        },
-        'crimes_vs_person': {
-            'assault_offenses': delete_crimes_vs_person.assault_offenses,
-            'homicide_offenses': delete_crimes_vs_person.homicide_offenses,
-            'human_trafficking': delete_crimes_vs_person.human_trafficking,
-            'kidnapping_abduction': delete_crimes_vs_person.kidnapping_abduction,
-            'sex_offenses': delete_crimes_vs_person.sex_offenses,
-        },
-        'crimes_vs_property': {
-            'number_of_participating_agencies': delete_crimes_vs_property.number_of_participating_agencies,
-            'population_covered': delete_crimes_vs_property.population_covered,
-            'arson': delete_crimes_vs_property.arson,
-            'bribery': delete_crimes_vs_property.bribery,
-            'burglary_breaking_entering': delete_crimes_vs_property.burglary_breaking_entering,
-            'counterfeiting_forgery': delete_crimes_vs_property.counterfeiting_forgery,
-            'destruction_damage_vandalism': delete_crimes_vs_property.destruction_damage_vandalism,
-            'embezzlement': delete_crimes_vs_property.embezzlement,
-            'extortion_blackmail': delete_crimes_vs_property.extortion_blackmail,
-            'fraud_offenses': delete_crimes_vs_property.fraud_offenses,
-            'larceny_theft_offenses': delete_crimes_vs_property.larceny_theft_offenses,
-            'motor_vehicle_theft': delete_crimes_vs_property.motor_vehicle_theft,
-            'robbery': delete_crimes_vs_property.robbery,
-            'stolen_property_offenses': delete_crimes_vs_property.stolen_property_offenses,
-        },
-        'crimes_vs_society': {
-            'animal_cruelty': delete_crimes_vs_society.animal_cruelty,
-            'drug_narcotic_offenses': delete_crimes_vs_society.drug_narcotic_offenses,
-            'gambling_offenses': delete_crimes_vs_society.gambling_offenses,
-            'pornography_obscene_material': delete_crimes_vs_society.pornography_obscene_material,
-            'prostitution_offenses': delete_crimes_vs_society.prostitution_offenses,
-            'weapon_law_violations': delete_crimes_vs_society.weapon_law_violations,
-        }
-    }
-
-    return jsonify(response)
-"""
 
 @app.route('/api/business/update_data', methods=['PUT'])
 def update_data():
